@@ -20,7 +20,7 @@ namespace AppGallary
             pagina.Children.Add(new XamarinForms.Paginas.PaginaDeCarrossel.Conteudo03());
             pagina.CurrentPage = pagina.Children[1];
             */
-            MainPage = new XamarinForms.Paginas.PaginaDeAbas.Abas();
+            MainPage = new XamarinForms.Paginas.PaginaDeMenuLateral.MenuLateral();
         }
 
         protected override void OnStart()
