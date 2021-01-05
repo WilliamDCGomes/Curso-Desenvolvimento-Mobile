@@ -1,0 +1,14 @@
+C:\Dev\AppGallary\AppGallary\AppGallary\bin\Debug\netstandard2.0\AppGallary.deps.json
+C:\Dev\AppGallary\AppGallary\AppGallary\bin\Debug\netstandard2.0\AppGallary.dll
+C:\Dev\AppGallary\AppGallary\AppGallary\bin\Debug\netstandard2.0\ref\AppGallary.dll
+C:\Dev\AppGallary\AppGallary\AppGallary\bin\Debug\netstandard2.0\AppGallary.pdb
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.csprojAssemblyReference.cache
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.AssemblyInfoInputs.cache
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.AssemblyInfo.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.csproj.CoreCompileInputs.cache
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.dll
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\ref\AppGallary.dll
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.pdb
