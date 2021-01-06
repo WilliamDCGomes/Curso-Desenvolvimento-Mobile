@@ -21,5 +21,10 @@ namespace AppGallary.XamarinForms.Layouts.BarraDeRolagemLayout
         {
             BarraDeRolagemScroll.ScrollToAsync(SegundaLabel, ScrollToPosition.Start, true);
         }
+
+        private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+        {
+            Posicao.Text = e.ScrollX + " - " + e.ScrollY;
+        }
     }
 }
