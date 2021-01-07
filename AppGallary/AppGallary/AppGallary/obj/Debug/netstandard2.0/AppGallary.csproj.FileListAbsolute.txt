@@ -41,3 +41,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\La
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Layouts\QuadradoLayout\Quadrado.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaControle\Caixa.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\RotuloControle\Rotulo.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\BotaoControle\Botao.xaml.g.cs

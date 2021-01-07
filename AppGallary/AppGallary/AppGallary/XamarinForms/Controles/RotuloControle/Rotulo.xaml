@@ -5,6 +5,14 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10 ">
+                <Label Text="FontFamily, FontSize, FontAttributes" TextColor="Black" />
+                <Label Text="Texto 01" FontFamily="sans-serif-condensed" FontSize="24" FontAttributes="Italic"/>
+                <Label Text="Texto 02" />
+                
+                <Label Text="HorizontalTextAlign, VerticalTextAlign" TextColor="Black" />
+                <Label Text="Texto 01" BackgroundColor="Black" TextColor="White" HorizontalTextAlignment="Center" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+                <Label Text="Texto 02" BackgroundColor="Black" TextColor="White" VerticalTextAlignment="Center" HeightRequest="60" WidthRequest="100" HorizontalOptions="Start"/>
+                
                 <Label Text="TextType" TextColor="Black" />
                 <Label Text="Texto &lt;strong&gt;01&lt;/strong&gt;" TextType="Html"/>
                 <Label TextType="Html">
@@ -33,6 +41,13 @@
                 <Label Text="CharacterSpacing" TextColor="Black" />
                 <Label Text="Texto 01" CharacterSpacing="-2"/>
                 <Label Text="Texto 02" CharacterSpacing="5"/>
+
+                <Label Text="LineHeight" TextColor="Black" />
+                <Label Text="LineHeight: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, metus vitae auctor imperdiet, arcu eros mattis lectus, vel pharetra est dui sit amet ex. Morbi elit ex, mollis sit amet neque vitae, elementum faucibus neque. Donec egestas non mi sed ultrices. Praesent elementum, ante id fermentum rutrum, eros urna porttitor magna, id blandit nisl tortor auctor arcu. Ut ornare eleifend ipsum, ut congue dui placerat a. Mauris accumsan, enim eget cursus pellentesque, eros nisl vulputate diam, vel rutrum mauris mi quis enim. Phasellus in est in tellus consectetur ultricies a quis lacus. Nunc rutrum quis felis id auctor. Integer at massa eros. Duis condimentum sit amet lectus imperdiet sodales. Cras sed massa hendrerit, condimentum erat non, efficitur justo. Quisque a odio et nisi ullamcorper fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
+                       MaxLines="3"
+                       LineHeight="1.2"
+                       />
+
                 <Label Text="MaxLines" TextColor="Black" />
                 <Label Text="MaxLines: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, metus vitae auctor imperdiet, arcu eros mattis lectus, vel pharetra est dui sit amet ex. Morbi elit ex, mollis sit amet neque vitae, elementum faucibus neque. Donec egestas non mi sed ultrices. Praesent elementum, ante id fermentum rutrum, eros urna porttitor magna, id blandit nisl tortor auctor arcu. Ut ornare eleifend ipsum, ut congue dui placerat a. Mauris accumsan, enim eget cursus pellentesque, eros nisl vulputate diam, vel rutrum mauris mi quis enim. Phasellus in est in tellus consectetur ultricies a quis lacus. Nunc rutrum quis felis id auctor. Integer at massa eros. Duis condimentum sit amet lectus imperdiet sodales. Cras sed massa hendrerit, condimentum erat non, efficitur justo. Quisque a odio et nisi ullamcorper fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit." 
                        MaxLines="3"

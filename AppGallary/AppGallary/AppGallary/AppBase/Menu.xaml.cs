@@ -112,5 +112,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.RotuloControle.Rotulo();
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirButton(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.BotaoControle.Botao();
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
