@@ -14,6 +14,7 @@
                     <Button Text="TabbedPage" Clicked="AbrirTabbedPage"/>
                     <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage"/>
                     <Button Text="Modal" Clicked="AbrirPaginaModal"/>
+                    
                     <Label Text="Layout"/>
                     <Button Text="StackLayout" Clicked="AbrirStackLayout"/>
                     <Button Text="Grid" Clicked="AbrirGrid"/>
@@ -24,6 +25,9 @@
                     <Button Text="ContentView" Clicked="AbrirContentView"/>
                     <Button Text="Frame" Clicked="AbrirFrame"/>
 
+                    <Label Text="Controles"/>
+                    <Button Text="BoxView" Clicked="AbrirBoxView"/>
+                    <Button Text="Label" Clicked="AbrirLabel"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
