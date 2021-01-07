@@ -6,8 +6,8 @@
         <StackLayout Padding="10">
             <Button Text="Botão 01" TextColor="White" BackgroundColor="Black" CornerRadius="30" />
             <Button Text="Botão 02" BackgroundColor="White" BorderWidth="5" BorderColor="Black" CornerRadius="30"/>
-            <Button Text="Botão 03" HorizontalOptions="Start" FontFamily="sans-serif-light" FontSize="Title" FontAttributes="Italic" TextColor="White" BackgroundColor="Black" Padding="30, 10" CornerRadius="60"/>
-            <Button Text="Botão 04" />
+            <Button Text="Botão 03" HorizontalOptions="Center" FontFamily="sans-serif-light" FontSize="Title" FontAttributes="Italic" TextColor="White" BackgroundColor="Black" Padding="30, 10" CornerRadius="60"/>
+            <Button Text="Botão 04" ImageSource="plane.png" ContentLayout="Right, 50" Padding="30, 10" HorizontalOptions="Center" FontSize="24" BackgroundColor="White" BorderColor="Black" BorderWidth="2" CornerRadius="50"/>
             <Button Text="Botão 05" />
         </StackLayout>
     </ContentPage.Content>

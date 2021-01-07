@@ -510,3 +510,9 @@ C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\logo.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\logotexto.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\android\src\crc64871f628040bfbee6\SplashActivity.java
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-hdpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-ldpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-mdpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xhdpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\plane.png

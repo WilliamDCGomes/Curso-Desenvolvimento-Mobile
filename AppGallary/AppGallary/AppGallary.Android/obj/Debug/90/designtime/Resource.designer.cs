@@ -8384,14 +8384,17 @@ namespace AppGallary.Droid
 			// aapt resource value: 0x7F070070
 			public const int notify_panel_notification_icon_bg = 2131165296;
 			
+			// aapt resource value: 0x7F070071
+			public const int plane = 2131165297;
+			
 			// aapt resource value: 0x7F070000
 			public const int SplashScreen = 2131165184;
 			
-			// aapt resource value: 0x7F070071
-			public const int tooltip_frame_dark = 2131165297;
-			
 			// aapt resource value: 0x7F070072
-			public const int tooltip_frame_light = 2131165298;
+			public const int tooltip_frame_dark = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int tooltip_frame_light = 2131165299;
 			
 			static Drawable()
 			{
