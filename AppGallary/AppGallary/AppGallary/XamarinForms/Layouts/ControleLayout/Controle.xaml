@@ -9,6 +9,7 @@
             <controle:CardHorizontal Titulo="not 01" Texto="Texto 01" Cor="Gray"/>
             <controle:CardHorizontal Titulo="not 02" Texto="Texto 02" Cor="Gray"/>
             <controle:CardHorizontal Titulo="not 03" Texto="Texto 03" Cor="#202020"/>
+            <controle:CardDiretor Nome="Steven Spielberg" Descricao="Autor de filmes renomados" BoxViewColor="Blue"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

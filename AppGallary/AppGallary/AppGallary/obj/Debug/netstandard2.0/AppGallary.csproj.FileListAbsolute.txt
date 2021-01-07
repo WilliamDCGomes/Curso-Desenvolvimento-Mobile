@@ -37,3 +37,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\La
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Layouts\RelativoLayout\Relativo.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\CardHorizontal.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\Controle.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\CardDiretor.xaml.g.cs
