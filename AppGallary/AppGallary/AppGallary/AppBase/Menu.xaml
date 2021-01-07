@@ -29,6 +29,7 @@
                     <Button Text="BoxView" Clicked="AbrirBoxView"/>
                     <Button Text="Label" Clicked="AbrirLabel"/>
                     <Button Text="Button" Clicked="AbrirButton"/>
+                    <Button Text="ImageButton" Clicked="AbrirImageButton"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

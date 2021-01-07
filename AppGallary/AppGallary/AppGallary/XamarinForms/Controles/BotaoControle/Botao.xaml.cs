@@ -16,5 +16,22 @@ namespace AppGallary.XamarinForms.Controles.BotaoControle
         {
             InitializeComponent();
         }
+
+        private void Pressionado(object sender, EventArgs e)
+        {
+            LblPressionado.Text = "Pressionado!!!!!!!!!!";
+        }
+
+        private void Liberado(object sender, EventArgs e)
+        {
+            LblLiberado.Text = "Liberado!!!!!!!!!!";
+
+        }
+
+        private void Clicado(object sender, EventArgs e)
+        {
+            LblClicado.Text = "Clicado!!!!!!!!!!";
+
+        }
     }
 }
