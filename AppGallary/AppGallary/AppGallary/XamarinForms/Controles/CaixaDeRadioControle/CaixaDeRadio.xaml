@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Controles.CaixaDeRadioControle.CaixaDeRadio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IsChecked"/>
+            <RadioButton GroupName="grupo1" IsChecked="True" Text="C#"/>
+            <RadioButton GroupName="grupo2" IsChecked="False" Text="PHP"/>
+            <RadioButton GroupName="grupo1" IsChecked="False" Text="Java"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
