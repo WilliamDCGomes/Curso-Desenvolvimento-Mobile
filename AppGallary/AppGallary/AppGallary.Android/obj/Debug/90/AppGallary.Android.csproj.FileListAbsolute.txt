@@ -516,3 +516,9 @@ C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-mdpi\p
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xhdpi\plane.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi\plane.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\plane.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-hdpi\xamarin.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-ldpi\xamarin.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-mdpi\xamarin.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xhdpi\xamarin.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi\xamarin.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\xamarin.png

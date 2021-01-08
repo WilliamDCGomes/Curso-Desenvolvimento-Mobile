@@ -984,6 +984,7 @@ int drawable plane 0x7f070076
 int drawable splashscreen 0x7f070077
 int drawable tooltip_frame_dark 0x7f070078
 int drawable tooltip_frame_light 0x7f070079
+int drawable xamarin 0x7f07007a
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002

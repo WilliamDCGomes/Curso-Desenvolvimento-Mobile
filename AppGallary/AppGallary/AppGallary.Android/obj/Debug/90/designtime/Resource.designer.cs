@@ -8396,6 +8396,9 @@ namespace AppGallary.Droid
 			// aapt resource value: 0x7F070073
 			public const int tooltip_frame_light = 2131165299;
 			
+			// aapt resource value: 0x7F070074
+			public const int xamarin = 2131165300;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
