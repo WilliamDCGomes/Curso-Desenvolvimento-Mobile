@@ -33,6 +33,7 @@
                     <Button Text="Image" Clicked="AbrirImagem"/>
                     <Button Text="Entry" Clicked="AbrirEntry"/>
                     <Button Text="Editor" Clicked="AbrirEditor"/>
+                    <Button Text="Checkbox" Clicked="AbrirCheckbox"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
