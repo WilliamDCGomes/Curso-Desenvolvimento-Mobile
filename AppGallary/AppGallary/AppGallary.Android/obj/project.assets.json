@@ -1933,24 +1933,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\supor\\.nuget\\packages\\": {},
+    "C:\\Users\\willi\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
+      "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
       "projectName": "AppGallary.Android",
-      "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
-      "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\obj\\",
+      "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1964,8 +1964,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
-              "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
+            "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
+              "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
             }
           }
         }
