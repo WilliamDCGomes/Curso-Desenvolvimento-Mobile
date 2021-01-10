@@ -38,6 +38,7 @@
                     <Button Text="Switch" Clicked="AbrirSwitch"/>
                     <Button Text="Stepper" Clicked="AbrirStepper"/>
                     <Button Text="Slider" Clicked="AbrirSlider"/>
+                    <Button Text="Picker" Clicked="AbrirPicker"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
