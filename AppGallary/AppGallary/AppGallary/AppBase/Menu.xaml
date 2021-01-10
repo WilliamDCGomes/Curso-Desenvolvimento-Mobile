@@ -37,6 +37,7 @@
                     <Button Text="RadioButton" Clicked="AbrirRadioButton"/>
                     <Button Text="Switch" Clicked="AbrirSwitch"/>
                     <Button Text="Stepper" Clicked="AbrirStepper"/>
+                    <Button Text="Slider" Clicked="AbrirSlider"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

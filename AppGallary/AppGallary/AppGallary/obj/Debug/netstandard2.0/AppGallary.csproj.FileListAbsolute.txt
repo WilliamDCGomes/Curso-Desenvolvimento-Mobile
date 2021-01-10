@@ -200,3 +200,4 @@ D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.pdb
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\InterruptorControle\Interruptor.xaml.g.cs
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\PassadorControle\Passador.xaml.g.cs
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Controles\DeslizanteControle\Deslizante.xaml.g.cs
