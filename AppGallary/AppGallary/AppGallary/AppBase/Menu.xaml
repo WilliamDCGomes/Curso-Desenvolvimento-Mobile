@@ -35,6 +35,7 @@
                     <Button Text="Editor" Clicked="AbrirEditor"/>
                     <Button Text="Checkbox" Clicked="AbrirCheckbox"/>
                     <Button Text="RadioButton" Clicked="AbrirRadioButton"/>
+                    <Button Text="Switch" Clicked="AbrirSwitch"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

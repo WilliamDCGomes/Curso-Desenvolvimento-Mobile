@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppGallary.XamarinForms.Controles.InterruptorControle.Interruptor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="" />
+            <Switch HorizontalOptions="Start" IsToggled="True"/>
+
+            <Label Text="OnColor, ThumbColor" />
+            <Switch HorizontalOptions="Start" OnColor="Red" ThumbColor="Blue"/>
+
+            <Label Text="Evento: Toggled" />
+            <Switch HorizontalOptions="Start" Toggled="Switch_Toggled"/>
+
+            <Label x:Name="lblInformativo" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

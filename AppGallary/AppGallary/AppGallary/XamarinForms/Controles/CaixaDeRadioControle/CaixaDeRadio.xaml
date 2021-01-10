@@ -4,11 +4,15 @@
              x:Class="AppGallary.XamarinForms.Controles.CaixaDeRadioControle.CaixaDeRadio">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="IsChecked"/>
-            <RadioButton GroupName="grupo1" IsChecked="True" Text="C#"/>
-            <RadioButton GroupName="grupo2" IsChecked="False" Text="PHP"/>
-            <RadioButton GroupName="grupo1" IsChecked="False" Text="Java"/>
-            
+            <Label Text="IsChecked, Text, TextColor"/>
+            <RadioButton Text="C#" GroupName="BackEnd" IsChecked="True"/>
+            <RadioButton Text="PHP" GroupName="BackEnd" IsChecked="False" />
+            <RadioButton Text="Java" GroupName="BackEnd" IsChecked="False" />
+            <Label Text="GroupName" />
+            <RadioButton Text="JavaScript" GroupName="FrontEnd" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Text="SASS" GroupName="FrontEnd" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Text="HTML" GroupName="FrontEnd" CheckedChanged="RadioButton_CheckedChanged"/>
+            <Label x:Name="lblInformativo" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,10 @@ namespace AppGallary.XamarinForms.Controles.CaixaDeRadioControle
         {
             InitializeComponent();
         }
+
+        private void RadioButton_CheckedChanged(object sender, CheckedChangedEventArgs e)
+        {
+            lblInformativo.Text = ((RadioButton)sender).Text + ": " + e.Value;
+        }
     }
 }
