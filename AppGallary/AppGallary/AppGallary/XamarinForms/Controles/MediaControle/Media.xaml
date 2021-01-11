@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
              x:Class="AppGallary.XamarinForms.Controles.MediaControle.Media">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout Spacing="20">
                 <Label Text="MediaElement" />
                 <Label Text="Propriedades: ShowsPlaybackControls" />
-                <Label Text="Métodos: " />
+                <Label Text="Métodos: Play, Pause, Stop" />
                 <Label Text="Eventos: " />
 
                 <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
@@ -16,8 +17,12 @@
 
 
                 <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                <MediaElement Source="ms-appx:///spacedu.mp4" Aspect="AspectFill" AutoPlay="False" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
-            
+                <MediaElement x:Name="VideoControle" Source="ms-appx:///spacedu.mp4" Aspect="AspectFill" AutoPlay="False" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="False"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="Play" Clicked="ButtonPlay" BackgroundColor="LightGray" />
+                    <Button Text="Pause" Clicked="ButtonPause" BackgroundColor="LightGray" />
+                    <Button Text="Stop" Clicked="ButtonStop" BackgroundColor="LightGray" />
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

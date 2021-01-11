@@ -16,5 +16,20 @@ namespace AppGallary.XamarinForms.Controles.MediaControle
         {
             InitializeComponent();
         }
+
+        private void ButtonPlay(object sender, EventArgs e)
+        {
+            VideoControle.Play();
+        }
+
+        private void ButtonPause(object sender, EventArgs e)
+        {
+            VideoControle.Pause();
+        }
+
+        private void ButtonStop(object sender, EventArgs e)
+        {
+            VideoControle.Stop();
+        }
     }
 }
