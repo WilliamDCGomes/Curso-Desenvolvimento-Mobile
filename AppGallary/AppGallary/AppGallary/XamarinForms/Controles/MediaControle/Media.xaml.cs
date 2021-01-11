@@ -31,5 +31,11 @@ namespace AppGallary.XamarinForms.Controles.MediaControle
         {
             VideoControle.Stop();
         }
+
+        private void SliderVolume(object sender, ValueChangedEventArgs e)
+        {
+            VideoControle.Volume = e.NewValue;
+            lblVolume.Text = $"Volume({e.NewValue})";
+        }
     }
 }
