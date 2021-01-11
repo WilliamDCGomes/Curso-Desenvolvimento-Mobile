@@ -39,6 +39,7 @@
                     <Button Text="Stepper" Clicked="AbrirStepper"/>
                     <Button Text="Slider" Clicked="AbrirSlider"/>
                     <Button Text="Picker" Clicked="AbrirPicker"/>
+                    <Button Text="DatePicker" Clicked="AbrirDatePicker"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
