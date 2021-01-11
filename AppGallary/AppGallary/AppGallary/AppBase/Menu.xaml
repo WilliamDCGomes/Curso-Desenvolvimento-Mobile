@@ -43,6 +43,7 @@
                     <Button Text="TimePicker" Clicked="AbrirTimePicker"/>
                     <Button Text="ActivityIndicator" Clicked="AbrirActivityIndicator"/>
                     <Button Text="ProgressBar" Clicked="AbrirProgressBar"/>
+                    <Button Text="SearchBar" Clicked="AbrirSearchBar"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
