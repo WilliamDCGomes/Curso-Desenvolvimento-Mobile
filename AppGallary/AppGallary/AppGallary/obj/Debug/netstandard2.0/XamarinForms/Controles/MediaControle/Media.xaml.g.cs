@@ -23,6 +23,9 @@ namespace AppGallary.XamarinForms.Controles.MediaControle {
         private global::Xamarin.Forms.Label lblPosicao;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Slider SliderPosicaoVideo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Label lblDuracao;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -33,6 +36,7 @@ namespace AppGallary.XamarinForms.Controles.MediaControle {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Media));
             VideoControle = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.MediaElement>(this, "VideoControle");
             lblPosicao = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblPosicao");
+            SliderPosicaoVideo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Slider>(this, "SliderPosicaoVideo");
             lblDuracao = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblDuracao");
             lblVolume = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblVolume");
         }

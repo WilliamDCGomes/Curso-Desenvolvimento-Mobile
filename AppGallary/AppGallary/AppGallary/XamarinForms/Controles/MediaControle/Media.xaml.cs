@@ -27,9 +27,10 @@ namespace AppGallary.XamarinForms.Controles.MediaControle
 
         private void AtualizarVideoPosicao()
         {
-            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            Device.StartTimer(TimeSpan.FromMilliseconds(500), () =>
             {
                 lblPosicao.Text = VideoControle.Position.ToString(@"mm\:ss");
+                SliderPosicaoVideo.Value = VideoControle.Position.Seconds;
                 return ContinuaAtualizando;
             });
         }
@@ -57,6 +58,7 @@ namespace AppGallary.XamarinForms.Controles.MediaControle
         private void VideoControle_MediaOpened(object sender, EventArgs e)
         {
             lblDuracao.Text = VideoControle.Duration.Value.ToString(@"mm\:ss");
+            SliderPosicaoVideo.Maximum = VideoControle.Duration.Value.TotalSeconds;
         }
     }
 }

@@ -9,7 +9,7 @@
                 <Label Text="MediaElement" />
                 <Label Text="Propriedades: ShowsPlaybackControls, AutoPlay, Aspect, Volume, IsLooping, KeepScreenOn" />
                 <Label Text="Métodos: Play, Pause, Stop" />
-                <Label Text="Eventos: " />
+                <Label Text="Eventos: MediaOpened, MediaFailed, MediaEnded" />
 
                 <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <MediaElement Source="ms-appx:///alarm.mp3" AutoPlay="False" IsLooping="True" HeightRequest="100" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
@@ -21,17 +21,22 @@
 
                 <StackLayout Orientation="Horizontal" Padding="10">
                     <Label x:Name="lblPosicao" Text="00:00" />
-                    <Label x:Name="lblDuracao" Text="00:00" HorizontalOptions="EndAndExpand"/>
+                    <Slider IsEnabled="False" x:Name="SliderPosicaoVideo" MinimumTrackColor="Accent" Value="0" MaximumTrackColor="Gray" Minimum="0.0" Maximum="1.0" HorizontalOptions="FillAndExpand"/>
+                    <Label x:Name="lblDuracao" Text="00:00" HorizontalOptions="End"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Button Text="Play" Clicked="ButtonPlay" BackgroundColor="LightGray" />
                     <Button Text="Pause" Clicked="ButtonPause" BackgroundColor="LightGray" />
                     <Button Text="Stop" Clicked="ButtonStop" BackgroundColor="LightGray" />
                     <StackLayout>
-                        <Slider ValueChanged="SliderVolume" MinimumTrackColor="Accent" Value="1" MaximumTrackColor="Gray" Minimum="0.0" Maximum="1.0"/>
+                        <Slider ValueChanged="SliderVolume" MinimumTrackColor="Accent" Value="1" MaximumTrackColor="Gray" Minimum="0.0" Maximum="1.0" WidthRequest="70"/>
                         <Label x:Name="lblVolume" Text="Volume" FontSize="8" HorizontalTextAlignment="Center"/>
                     </StackLayout>
                 </StackLayout>
+                
+                <Label Text="MP4 Online" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4" AutoPlay="False" HeightRequest="220" ShowsPlaybackControls="True"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
