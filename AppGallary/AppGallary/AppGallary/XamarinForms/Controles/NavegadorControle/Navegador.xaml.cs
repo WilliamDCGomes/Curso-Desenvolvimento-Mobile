@@ -28,5 +28,38 @@ namespace AppGallary.XamarinForms.Controles.NavegadorControle
                 </html>";
             WebView2.Source = webViewHtmlSource;
         }
+
+        private void BotaoVoltar(object sender, EventArgs e)
+        {
+            if (WebView3.CanGoBack)
+            {
+                WebView3.GoBack();
+            }
+        }
+
+        private void BotaoAtualizar(object sender, EventArgs e)
+        {
+            WebView3.Reload();
+        }
+
+        private void BotaoProximo(object sender, EventArgs e)
+        {
+            if (WebView3.CanGoForward)
+            {
+                WebView3.GoForward();
+            }
+        }
+
+        private void Carregado(object sender, WebNavigatedEventArgs e)
+        {
+            lblStatus.Text = "Carregado!";
+            lblUrl.Text = e.Url;
+        }
+
+        private void Carregando(object sender, WebNavigatingEventArgs e)
+        {
+            lblStatus.Text = "Carregando...";
+        }
     }
+
 }

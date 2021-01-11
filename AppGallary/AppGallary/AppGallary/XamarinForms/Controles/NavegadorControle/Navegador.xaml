@@ -7,18 +7,30 @@
         <ScrollView>
             <StackLayout>
                 <Label Text="WebView" />
-                <Label Text="Propriedades: Source(URL)" />
-                <Label Text="Eventos: " />
-                <Label Text="Observação: " />
-                <Frame BorderColor="Gray" Padding="1">
-                    <WebView x:Name="WebView1" Source="http://www.google.com" HorizontalOptions="FillAndExpand" HeightRequest="300">
-                    
-                    </WebView>
+                <Label Text="Propriedades: Source(URL), HTML, CanGoBack, CanGoFoward" />
+                <Label Text="Metodos: GoBack, GoFoward, Reload" />
+                <Label Text="Eventos: Navigated, Navigating" />
+                <Frame Margin="0, 20, 0, 0" BorderColor="Gray" Padding="1" IsVisible="True">
+                    <WebView x:Name="WebView1" Source="http://www.google.com" HorizontalOptions="FillAndExpand" HeightRequest="300"/>
+                </Frame>
+                <Frame Margin="0, 20, 0, 0" BorderColor="Gray" Padding="1" IsVisible="True">
+                    <WebView x:Name="WebView2" HorizontalOptions="FillAndExpand" HeightRequest="300"/>
+                </Frame>
+                <Frame Margin="0, 20, 0, 0" BorderColor="Gray" Padding="5">
+                    <StackLayout>
+                        <Label x:Name="lblUrl" Text="URL" HorizontalTextAlignment="Center" FontSize="18"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Button Text="Voltar" Clicked="BotaoVoltar" BackgroundColor="#F2F2F2" HorizontalOptions="FillAndExpand"/>
+                            <Button Text="Atualizar" Clicked="BotaoAtualizar" BackgroundColor="#F2F2F2" HorizontalOptions="FillAndExpand"/>
+                            <Button Text="Próximo" Clicked="BotaoProximo" BackgroundColor="#F2F2F2" HorizontalOptions="FillAndExpand"/>
+                        </StackLayout>
+                    </StackLayout>
                 </Frame>
                 <Frame BorderColor="Gray" Padding="1">
-                    <WebView x:Name="WebView2" HorizontalOptions="FillAndExpand" HeightRequest="300">
-
-                    </WebView>
+                    <WebView Source="http://www.google.com" Navigated="Carregado" Navigating="Carregando" x:Name="WebView3" HorizontalOptions="FillAndExpand" HeightRequest="300"/>
+                </Frame>
+                <Frame BorderColor="Gray" Padding="5">
+                    <Label x:Name="lblStatus" />
                 </Frame>
             </StackLayout>
         </ScrollView>
