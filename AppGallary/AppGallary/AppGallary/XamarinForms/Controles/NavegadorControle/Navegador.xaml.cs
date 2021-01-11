@@ -15,6 +15,18 @@ namespace AppGallary.XamarinForms.Controles.NavegadorControle
         public Navegador()
         {
             InitializeComponent();
+            var webViewHtmlSource = new HtmlWebViewSource();
+            webViewHtmlSource.Html =
+                @"<html>
+                    <body>
+                        <h1>Sou uma página</h1>
+                        <h2>dentro do WebView</h2>
+                        <p>
+                            Este é um teste do nosso WebView renderizando HTML e <span style='color: red; text-decoration: underline; font-weight: bold;'>CSS</span>.
+                        </p>
+                    </body>
+                </html>";
+            WebView2.Source = webViewHtmlSource;
         }
     }
 }

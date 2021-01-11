@@ -11,12 +11,12 @@
                 <Label Text="Eventos: " />
                 <Label Text="Observação: " />
                 <Frame BorderColor="Gray" Padding="1">
-                    <WebView Source="http://www.google.com" HorizontalOptions="FillAndExpand" HeightRequest="300">
+                    <WebView x:Name="WebView1" Source="http://www.google.com" HorizontalOptions="FillAndExpand" HeightRequest="300">
                     
                     </WebView>
                 </Frame>
                 <Frame BorderColor="Gray" Padding="1">
-                    <WebView Source="http://www.youtube.com" HorizontalOptions="FillAndExpand" HeightRequest="300">
+                    <WebView x:Name="WebView2" HorizontalOptions="FillAndExpand" HeightRequest="300">
 
                     </WebView>
                 </Frame>
