@@ -20,7 +20,13 @@
                 <SwipeView.RightItems>
                     <!-- Função capaz de acionar o evento mesmo se clicar nele. Arrastar é o suficiente para disparar o evento
                         Mode="Execute"-->
-                    <SwipeItems Mode="Execute">
+                    <SwipeItems Mode="Reveal">
+                        <SwipeItemView >
+                            <StackLayout Padding="20, 15" WidthRequest="100" BackgroundColor="LightSkyBlue" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <Label Text="Visualizar" TextColor="White" HorizontalTextAlignment="Center"/>
+                                <Label Text="PRODUTO" TextColor="Black" HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                        </SwipeItemView>
                         <SwipeItem Text="Excluir" Invoked="SwipeExcluir" BackgroundColor="#FFAAAA"/>
                     </SwipeItems>
                 </SwipeView.RightItems>
