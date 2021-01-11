@@ -5,29 +5,35 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="SwipeView" />
-            <Label Text="Propriedades: Posicionamento - SwipeView.SideItems, SwipeItem: Text" />
-            <Label Text="Eventos: " />
+            <Label Text="Propriedades: SwipeItems: SwipeBehaviorOnInvoked, Mode - Posicionamento - SwipeView.SideItems, SwipeItem: Text" />
+            <Label Text="Eventos: SwipeView: SwipeStarted, SwipeChanging, SwipeEnded, SwipeItem: Invoked" />
             <Label Text="Observação: Requisito: SwipeView XF4.4+" />
 
-            <SwipeView Margin="10">
+            <SwipeView SwipeStarted="SwipeStarted" SwipeChanging="SwipeChanging" SwipeEnded="SwipeEnded" Margin="10">
                 <SwipeView.LeftItems>
                     <!-- Função para manter o swipe aberto mesmo depois de clicar SwipeBehaviorOnInvoked -->
                     <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
-                        <SwipeItem Text="Detalhe" IconImageSource="plane.png" BackgroundColor="#AAE3FF"/>
-                        <SwipeItem Text="Editar" BackgroundColor="#FFF7B1"/>
+                        <SwipeItem Text="Detalhe" Invoked="SwipeDetalhe" IconImageSource="plane.png" BackgroundColor="#AAE3FF"/>
+                        <SwipeItem Text="Editar" Invoked="SwipeEditar" BackgroundColor="#FFF7B1"/>
                     </SwipeItems>
                 </SwipeView.LeftItems>
                 <SwipeView.RightItems>
                     <!-- Função capaz de acionar o evento mesmo se clicar nele. Arrastar é o suficiente para disparar o evento
                         Mode="Execute"-->
                     <SwipeItems Mode="Execute">
-                        <SwipeItem Text="Excluir" BackgroundColor="#FFAAAA"/>
+                        <SwipeItem Text="Excluir" Invoked="SwipeExcluir" BackgroundColor="#FFAAAA"/>
                     </SwipeItems>
                 </SwipeView.RightItems>
                 <Frame BorderColor="Gray" >
                     <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalTextAlignment="Center"/>
                 </Frame>
             </SwipeView>
+            <Label Text="-" x:Name="lblDetalhe" />
+            <Label Text="-" x:Name="lblEditar" />
+            <Label Text="-" x:Name="lblExcluir" /> 
+            <Label Text="-" x:Name="lblStart" />
+            <Label Text="-" x:Name="lblChanging" />
+            <Label Text="-" x:Name="lblEnded" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
