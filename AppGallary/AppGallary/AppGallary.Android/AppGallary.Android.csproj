@@ -209,6 +209,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\xamarin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\spacedu.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\alarm.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>

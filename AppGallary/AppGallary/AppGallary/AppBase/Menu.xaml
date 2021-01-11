@@ -47,6 +47,7 @@
                     <Button Text="RefreshView" Clicked="AbrirRefreshView"/>
                     <Button Text="SwipeView" Clicked="AbrirSwipeView"/>
                     <Button Text="WebView" Clicked="AbrirWebView"/>
+                    <Button Text="MediaElement" Clicked="AbrirMediaElement"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
