@@ -11,11 +11,19 @@
 
             <SwipeView Margin="10">
                 <SwipeView.LeftItems>
-                    <SwipeItems>
-                        <SwipeItem Text="Detalhe" BackgroundColor="Black"/>
-                        <SwipeItem Text="Editar" BackgroundColor="Black"/>
+                    <!-- Função para manter o swipe aberto mesmo depois de clicar SwipeBehaviorOnInvoked -->
+                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                        <SwipeItem Text="Detalhe" IconImageSource="plane.png" BackgroundColor="#AAE3FF"/>
+                        <SwipeItem Text="Editar" BackgroundColor="#FFF7B1"/>
                     </SwipeItems>
                 </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                    <!-- Função capaz de acionar o evento mesmo se clicar nele. Arrastar é o suficiente para disparar o evento
+                        Mode="Execute"-->
+                    <SwipeItems Mode="Execute">
+                        <SwipeItem Text="Excluir" BackgroundColor="#FFAAAA"/>
+                    </SwipeItems>
+                </SwipeView.RightItems>
                 <Frame BorderColor="Gray" >
                     <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalTextAlignment="Center"/>
                 </Frame>
