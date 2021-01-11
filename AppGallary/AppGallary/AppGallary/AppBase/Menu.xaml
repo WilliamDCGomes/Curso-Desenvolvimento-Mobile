@@ -41,6 +41,7 @@
                     <Button Text="Picker" Clicked="AbrirPicker"/>
                     <Button Text="DatePicker" Clicked="AbrirDatePicker"/>
                     <Button Text="TimePicker" Clicked="AbrirTimePicker"/>
+                    <Button Text="ActivityIndicator" Clicked="AbrirActivityIndicator"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

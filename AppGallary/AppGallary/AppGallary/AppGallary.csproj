@@ -60,6 +60,9 @@
     <EmbeddedResource Update="XamarinForms\Controles\ImagemControle\Imagem.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Controles\IndicadorDeAtividadeControle\IndicadorDeAtividades.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\InterruptorControle\Interruptor.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

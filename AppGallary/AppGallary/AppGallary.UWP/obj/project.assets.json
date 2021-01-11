@@ -9166,18 +9166,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\willi\\.nuget\\packages\\": {},
+    "C:\\Users\\supor\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.UWP\\AppGallary.UWP.csproj",
+      "projectUniqueName": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.UWP\\AppGallary.UWP.csproj",
       "projectName": "AppGallary.UWP",
-      "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.UWP\\AppGallary.UWP.csproj",
-      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.UWP\\obj\\",
+      "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.UWP\\AppGallary.UWP.csproj",
+      "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9185,7 +9185,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9199,8 +9199,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
-              "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
+            "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
+              "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
             }
           }
         }
