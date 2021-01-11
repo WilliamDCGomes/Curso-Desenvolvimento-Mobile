@@ -45,6 +45,7 @@
                     <Button Text="ProgressBar" Clicked="AbrirProgressBar"/>
                     <Button Text="SearchBar" Clicked="AbrirSearchBar"/>
                     <Button Text="RefreshView" Clicked="AbrirRefreshView"/>
+                    <Button Text="SwipeView" Clicked="AbrirSwipeView"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

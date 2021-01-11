@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Controles.ArrastaControle.Arrasta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="SwipeView" />
+            <Label Text="Propriedades: Posicionamento - SwipeView.SideItems, SwipeItem: Text" />
+            <Label Text="Eventos: " />
+            <Label Text="Observação: Requisito: SwipeView XF4.4+" />
+
+            <SwipeView Margin="10">
+                <SwipeView.LeftItems>
+                    <SwipeItems>
+                        <SwipeItem Text="Detalhe" BackgroundColor="Black"/>
+                        <SwipeItem Text="Editar" BackgroundColor="Black"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                <Frame BorderColor="Gray" >
+                    <Label Text="Arrastar" TextColor="Red" FontSize="24" HorizontalTextAlignment="Center"/>
+                </Frame>
+            </SwipeView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
