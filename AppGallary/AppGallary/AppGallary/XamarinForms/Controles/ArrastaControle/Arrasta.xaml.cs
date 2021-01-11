@@ -46,5 +46,15 @@ namespace AppGallary.XamarinForms.Controles.ArrastaControle
         {
             lblEnded.Text = $"Acionado SwipeEnded: {DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - {e.SwipeDirection}";
         }
+
+        private void SwipeCloseRequested(object sender, EventArgs e)
+        {
+            lblClose.Text = $"Acionado Close: {DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")}";
+        }
+
+        private void CloseSwipeView(object sender, EventArgs e)
+        {
+            SwipeViewControl.Close();
+        }
     }
 }

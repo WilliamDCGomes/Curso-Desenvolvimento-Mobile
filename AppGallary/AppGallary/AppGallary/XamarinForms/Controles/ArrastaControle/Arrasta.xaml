@@ -9,7 +9,7 @@
             <Label Text="Eventos: SwipeView: SwipeStarted, SwipeChanging, SwipeEnded, SwipeItem: Invoked" />
             <Label Text="Observação: Requisito: SwipeView XF4.4+" />
 
-            <SwipeView SwipeStarted="SwipeStarted" SwipeChanging="SwipeChanging" SwipeEnded="SwipeEnded" Margin="10">
+            <SwipeView x:Name="SwipeViewControl" CloseRequested="SwipeCloseRequested" SwipeStarted="SwipeStarted" SwipeChanging="SwipeChanging" SwipeEnded="SwipeEnded" Margin="10">
                 <SwipeView.LeftItems>
                     <!-- Função para manter o swipe aberto mesmo depois de clicar SwipeBehaviorOnInvoked -->
                     <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
@@ -34,6 +34,8 @@
             <Label Text="-" x:Name="lblStart" />
             <Label Text="-" x:Name="lblChanging" />
             <Label Text="-" x:Name="lblEnded" />
+            <Label Text="-" x:Name="lblClose" />
+            <Button Text="Fechar SwipeView" Clicked="CloseSwipeView"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
