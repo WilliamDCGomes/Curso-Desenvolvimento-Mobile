@@ -44,6 +44,7 @@
                     <Button Text="ActivityIndicator" Clicked="AbrirActivityIndicator"/>
                     <Button Text="ProgressBar" Clicked="AbrirProgressBar"/>
                     <Button Text="SearchBar" Clicked="AbrirSearchBar"/>
+                    <Button Text="RefreshView" Clicked="AbrirRefreshView"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
