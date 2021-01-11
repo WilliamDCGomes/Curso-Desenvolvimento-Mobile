@@ -3,20 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Controles.MediaControle.Media">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="MediaElement" />
-            <Label Text="Propriedades: ShowsPlaybackControls" />
-            <Label Text="Métodos: " />
-            <Label Text="Eventos: " />
+        <ScrollView>
+            <StackLayout>
+                <Label Text="MediaElement" />
+                <Label Text="Propriedades: ShowsPlaybackControls" />
+                <Label Text="Métodos: " />
+                <Label Text="Eventos: " />
 
-            <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-            <MediaElement Source="ms-appx:///alarm.mp3" HeightRequest="100" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
+                <Label Text="MP3" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <MediaElement Source="ms-appx:///alarm.mp3" AutoPlay="False" HeightRequest="100" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
 
 
 
-            <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-            <MediaElement Source="ms-appx:///spacedu.mp4" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
+                <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <MediaElement Source="ms-appx:///spacedu.mp4" Aspect="AspectFill" AutoPlay="False" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="True"/>
             
-        </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
