@@ -17,7 +17,12 @@
 
 
                 <Label Text="MP4" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                <MediaElement KeepScreenOn="True" x:Name="VideoControle" Volume="1" Source="ms-appx:///spacedu.mp4" Aspect="AspectFill" AutoPlay="False" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="False"/>
+                <MediaElement MediaOpened="VideoControle_MediaOpened" KeepScreenOn="True" x:Name="VideoControle" Volume="1" Source="ms-appx:///spacedu.mp4" Aspect="AspectFill" AutoPlay="False" HeightRequest="200" HorizontalOptions="FillAndExpand" ShowsPlaybackControls="False"/>
+
+                <StackLayout Orientation="Horizontal" Padding="10">
+                    <Label x:Name="lblPosicao" Text="00:00" />
+                    <Label x:Name="lblDuracao" Text="00:00" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                     <Button Text="Play" Clicked="ButtonPlay" BackgroundColor="LightGray" />
                     <Button Text="Pause" Clicked="ButtonPause" BackgroundColor="LightGray" />
