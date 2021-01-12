@@ -149,11 +149,48 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
             return FIAT;
         }
 
+        private Marca GetListaCarrosRenault()
+        {
+            var RENAULT = new Marca()
+            {
+                new Carro {
+                    Nome = "Kwid",
+                    Motorizacao = "1.0",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro {
+                    Nome = "Sandero",
+                    Motorizacao = "1.0 - 1.6",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro {
+                    Nome = "Logan",
+                    Motorizacao = "1.6",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+            };
+            RENAULT.Nome = "RENAULT";
+            return RENAULT;
+        }
+
         private void MenuItem_Clicked(object sender, EventArgs e)
         {
             var parametro = ((MenuItem)sender).CommandParameter;
             var carro = (Carro) parametro;
             DisplayAlert("Clicou no Visualizar", $"Registro: ({carro.Nome})", "OK");
+        }
+
+        private void Lista01_Refreshing(object sender, EventArgs e)
+        {
+            var marcas = new List<Marca>()
+            {
+                GetListaCarrosRenault()
+            };
+            Lista01.ItemsSource = marcas;
+            Lista01.IsRefreshing = false;
         }
     }
     public class Carro

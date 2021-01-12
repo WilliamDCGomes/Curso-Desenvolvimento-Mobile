@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Listas.ListaControle.Lista">
     <ContentPage.Content>
-        <ListView x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
+        <ListView IsPullToRefreshEnabled="True" RefreshControlColor="Accent" Refreshing="Lista01_Refreshing" x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
             <ListView.Header>
                 <StackLayout>
                     <Label Text="ListView" />
