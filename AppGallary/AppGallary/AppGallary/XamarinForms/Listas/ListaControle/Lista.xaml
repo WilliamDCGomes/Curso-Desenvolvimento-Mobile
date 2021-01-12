@@ -3,11 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Listas.ListaControle.Lista">
     <ContentPage.Content>
-        <ListView IsPullToRefreshEnabled="True" RefreshControlColor="Accent" Refreshing="Lista01_Refreshing" x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
+        <ListView IsPullToRefreshEnabled="True" Scrolled="Lista01_Scrolled" RefreshControlColor="Accent" Refreshing="Lista01_Refreshing" x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
             <ListView.Header>
                 <StackLayout>
                     <Label Text="ListView" />
-                    <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows, Header, Footer, VerticalScrollBarVisibility" />
+                    <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows, Header, Footer, VerticalScrollBarVisibility, ContextAction, PullToRefresh" />
+                    <Label Text="Método: ScrollTo" />
+                    <Label Text="Evento: Scrolled" />
+                    <Label Text="-" x:Name="lblScroll" />
+                    <Button Text="Clique para ir na marca FORD" Clicked="MoverParaFordKA"/>
                 </StackLayout>
             </ListView.Header>
 

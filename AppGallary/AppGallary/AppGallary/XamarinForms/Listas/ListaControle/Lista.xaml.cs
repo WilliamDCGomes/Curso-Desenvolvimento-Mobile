@@ -192,6 +192,19 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
             Lista01.ItemsSource = marcas;
             Lista01.IsRefreshing = false;
         }
+
+        private void Lista01_Scrolled(object sender, ScrolledEventArgs e)
+        {
+            lblScroll.Text = $"X: {e.ScrollX} - Y: {e.ScrollY}";
+        }
+
+        private void MoverParaFordKA(object sender, EventArgs e)
+        {
+            var marcas = (List<Marca>)Lista01.ItemsSource;
+            var FORD = marcas[1];
+            var KA = FORD[0];
+            Lista01.ScrollTo(KA, ScrollToPosition.Center, true);
+        }
     }
     public class Carro
     {
