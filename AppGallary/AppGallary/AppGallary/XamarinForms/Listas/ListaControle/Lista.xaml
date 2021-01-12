@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Listas.ListaControle.Lista">
     <ContentPage.Content>
-        <ListView SelectionMode="Single" ItemSelected="Lista01_ItemSelected" ItemTapped="Lista01_ItemTapped" IsPullToRefreshEnabled="True" Scrolled="Lista01_Scrolled" RefreshControlColor="Accent" Refreshing="Lista01_Refreshing" x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
+        <ListView CachingStrategy="RecycleElement" SelectionMode="Single" ItemSelected="Lista01_ItemSelected" ItemTapped="Lista01_ItemTapped" IsPullToRefreshEnabled="True" Scrolled="Lista01_Scrolled" RefreshControlColor="Accent" Refreshing="Lista01_Refreshing" x:Name="Lista01" IsGroupingEnabled="True" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="LightGray" HasUnevenRows="True">
             <ListView.Header>
                 <StackLayout>
                     <Label Text="ListView" />
-                    <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows, Header, Footer, VerticalScrollBarVisibility, ContextAction, PullToRefresh, SelectedItem, SelectionMode" />
+                    <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows, Header, Footer, VerticalScrollBarVisibility, ContextAction, PullToRefresh, SelectedItem, SelectionMode, CachingStrategy" />
                     <Label Text="Método: ScrollTo" />
                     <Label Text="Evento: Scrolled, ItemSelected, ItemTapped" />
                     <Label Text="-" x:Name="lblScroll" />
