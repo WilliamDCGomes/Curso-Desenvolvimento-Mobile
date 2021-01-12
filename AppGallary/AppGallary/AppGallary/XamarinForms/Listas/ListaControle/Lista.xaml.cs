@@ -16,12 +16,78 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
         public Lista()
         {
             InitializeComponent();
-            Lista01.ItemsSource = GetListaCarros();
+            Lista01.ItemsSource = GetMarcas();
         }
 
-        private IEnumerable GetListaCarros()
+        private List<Marca> GetMarcas()
         {
-            return new List<Carro>()
+            return new List<Marca>()
+            {
+                GetListaCarrosDaFiat(),
+                GetListaCarrosDaFord()
+            };
+        }
+
+        private Marca GetListaCarrosDaFord()
+        {
+            var FORD = new Marca()
+            {
+                new Carro {
+                    Nome = "Ka",
+                    Motorizacao = "1.0 - 1.3",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro
+                {
+                    Nome = "Ka Sedan",
+                    Motorizacao = "1.0 - 1.3",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Uno.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro
+                {
+                    Nome = "Fusion",
+                    Motorizacao = "2.0 - 2.4",
+                    Descricao = "O Kit Cross transforma o seu Argo em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro
+                {
+                    Nome = "Ecosport",
+                    Motorizacao = "1.8 - 2.0",
+                    Descricao = "Agora você pode dar um toque de aventura para o  Kit Cross.",
+                    ItemsDeSerie = "Airbags, Direção Hidráulica"
+                },
+                new Carro
+                {
+                    Nome = "Novo Edge",
+                    Motorizacao = "2.4 - 3.0",
+                    Descricao = "O Kit Cross transforma o seu Toro em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
+                },
+                new Carro
+                {
+                    Nome = "Ranger",
+                    Motorizacao = "3.2",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Grand Siena. O Kit Cross transforma o seu Grand Siena em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
+                },
+                new Carro
+                {
+                    Nome = "Mustang",
+                    Motorizacao = "5.0",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Strada, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
+                },
+            };
+            FORD.Nome = "FORD";
+            return FORD;
+        }
+
+        private Marca GetListaCarrosDaFiat()
+        {
+            var FIAT = new Marca()
             {
                 new Carro {
                     Nome = "Mobi",
@@ -77,8 +143,10 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
                     Motorizacao = "1.0 - 1.8",
                     Descricao = "Agora com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
-                }
+                },
             };
+            FIAT.Nome = "FIAT";
+            return FIAT;
         }
     }
     public class Carro
@@ -87,5 +155,9 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
         public string Motorizacao { get; set; }
         public string Descricao { get; set; }
         public string ItemsDeSerie { get; set; }
+    }
+    public class Marca : List<Carro>
+    {
+        public string Nome { get; set; }
     }
 }
