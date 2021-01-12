@@ -205,6 +205,16 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
             var KA = FORD[0];
             Lista01.ScrollTo(KA, ScrollToPosition.Center, true);
         }
+
+        private void Lista01_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            DisplayAlert("Seleciodado", "Item selecionado", "OK");
+        }
+
+        private void Lista01_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            DisplayAlert("Tocado", "Item tocado", "OK");
+        }
     }
     public class Carro
     {
