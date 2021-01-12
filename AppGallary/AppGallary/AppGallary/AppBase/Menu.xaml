@@ -48,6 +48,7 @@
                     <Button Text="SwipeView" Clicked="AbrirSwipeView"/>
                     <Button Text="WebView" Clicked="AbrirWebView"/>
                     <Button Text="MediaElement" Clicked="AbrirMediaElement"/>
+                    <Button Text="Expander" Clicked="AbrirExpander"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
