@@ -15,7 +15,7 @@ namespace AppGallary.XamarinForms.Listas.ColecaoControle
         public Colecao()
         {
             InitializeComponent();
-            Colecao01.ItemsSource = GetFastFood();
+            Colecao01.ItemsSource = new List<FastFood>();
         }
         private List<FastFood> GetFastFood()
         {

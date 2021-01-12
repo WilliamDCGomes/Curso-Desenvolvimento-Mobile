@@ -5,9 +5,18 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="CollectionView" />
-            <Label Text="Propriedades: ItemsSource, ItemsTemplate" />
+            <Label Text="Propriedades: ItemsSource, ItemsTemplate, Header, Footer, EmptyView" />
             <Label Text="Eventos: " />
-            <CollectionView x:Name="Colecao01">
+            <CollectionView x:Name="Colecao01" >
+                <CollectionView.EmptyView>
+                    <Label Text="Nenhum registro!" Padding="10" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="#FFFF8080" FontAttributes="Bold"/>
+                </CollectionView.EmptyView>
+                <CollectionView.Header>
+                    <Label Text="Cabeçalho" Padding="10" TextColor="Black" HorizontalTextAlignment="Center" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                </CollectionView.Header>
+                <CollectionView.Footer>
+                    <Label Text="Rodapé" Padding="10" TextColor="Black" HorizontalTextAlignment="Center" BackgroundColor="LightGray" FontAttributes="Bold"/>
+                </CollectionView.Footer>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
