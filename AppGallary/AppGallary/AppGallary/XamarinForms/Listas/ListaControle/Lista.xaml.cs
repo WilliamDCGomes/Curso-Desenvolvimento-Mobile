@@ -148,6 +148,13 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
             FIAT.Nome = "FIAT";
             return FIAT;
         }
+
+        private void MenuItem_Clicked(object sender, EventArgs e)
+        {
+            var parametro = ((MenuItem)sender).CommandParameter;
+            var carro = (Carro) parametro;
+            DisplayAlert("Clicou no Visualizar", $"Registro: ({carro.Nome})", "OK");
+        }
     }
     public class Carro
     {

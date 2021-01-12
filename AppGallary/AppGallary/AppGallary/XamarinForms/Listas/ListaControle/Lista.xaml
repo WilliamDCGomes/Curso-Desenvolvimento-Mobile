@@ -22,6 +22,12 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Visualizar" 
+                                      Clicked="MenuItem_Clicked"
+                                      CommandParameter="{Binding .}"
+                                      />
+                        </ViewCell.ContextActions>
                         <StackLayout Padding="10">
                             <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="16"/>
                             <Label Text="{Binding Motorizacao}" FontAttributes="Italic" />
