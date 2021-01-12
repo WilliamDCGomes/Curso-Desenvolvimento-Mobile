@@ -5,22 +5,10 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="ListView" />
-            <ListView>
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>Mobi</x:String>
-                        <x:String>Uno</x:String>
-                        <x:String>Argo</x:String>
-                        <x:String>Cronos</x:String>
-                        <x:String>Toro</x:String>
-                        <x:String>Grand Siena</x:String>
-                        <x:String>Strada</x:String>
-                        <x:String>Dublè</x:String>
-                    </x:Array>
-                </ListView.ItemsSource>
+            <ListView x:Name="Lista01">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding .}" TextColor="Black" Detail="Motor 1.0"/>
+                        <TextCell Text="{Binding Nome}" TextColor="Black" Detail="{Binding Motorizacao}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
