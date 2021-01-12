@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Listas.ListaControle.Lista">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ListView" />
+            <ListView>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Mobi</x:String>
+                        <x:String>Uno</x:String>
+                        <x:String>Argo</x:String>
+                        <x:String>Cronos</x:String>
+                        <x:String>Toro</x:String>
+                        <x:String>Grand Siena</x:String>
+                        <x:String>Strada</x:String>
+                        <x:String>Dublè</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding .}" TextColor="Black" Detail="Motor 1.0"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
