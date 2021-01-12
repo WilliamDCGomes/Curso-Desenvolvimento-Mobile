@@ -6,15 +6,15 @@
         <ScrollView>
             <StackLayout>
                 <Label Text="TableView" />
-                <Label Text="Propriedades" />
-                <TableView >
+                <Label Text="Propriedades: Intent" />
+                <TableView HasUnevenRows="True" >
                     <TableRoot>
                         <TableSection Title="Gerência">
                             <TextCell Text="Geraldo Rodrigues Souza" TextColor="Black" Detail="Gerente de TI" DetailColor="Gray"/>
                             <TextCell Text="José Rodrigues Souza" TextColor="Black" Detail="Gerente Financeiro" DetailColor="Gray"/>
                             <TextCell Text="Edson Rodrigues Souza" TextColor="Black" Detail="Gerente de Comunicação" DetailColor="Gray"/>
                         </TableSection>
-                    
+
                         <TableSection Title="Supervisores">
                             <ImageCell Text="Alex Ribeiro da Silva" TextColor="Black" Detail="Supervisor de TI" DetailColor="Gray" ImageSource="foto.jpg" />
                         </TableSection>
@@ -27,6 +27,20 @@
                             <EntryCell Label="Nome: " LabelColor="Gray" Placeholder="Digite o nome do funcionário"/>
                             <EntryCell Label="Nome da Mãe: " LabelColor="Gray" Placeholder="Digite o nome da mãe do funcionário"/>
                             <SwitchCell Text="É casado?" On="True" OnColor="Green"/>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Sexo" Padding="17,10,0,10" VerticalOptions="CenterAndExpand"/>
+                                    <RadioButton Text="Masculino" HorizontalOptions="EndAndExpand"/>
+                                    <RadioButton Text="Feminino" Padding="0, 0, 10, 0"/>
+
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="10">
+                                    <Button Text="Cancelar" TextColor="White"  BackgroundColor="#FF9494" Padding="40, 20"/>
+                                    <Button Text="Salvar" TextColor="White" BackgroundColor="#28AA58" Padding="40, 20"/>
+                                </StackLayout>
+                            </ViewCell>
                         </TableSection>
                     </TableRoot>
                 </TableView>
