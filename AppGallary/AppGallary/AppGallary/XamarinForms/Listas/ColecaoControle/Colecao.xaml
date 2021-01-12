@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Listas.ColecaoControle.Colecao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="CollectionView" />
+            <Label Text="Propriedades: ItemsSource, ItemsTemplate" />
+            <Label Text="Eventos: " />
+            <CollectionView x:Name="Colecao01">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Nome}" TextColor="Black"/>
+                            <Label Text="{Binding QuantidadeDeFranquias}" TextColor="Gray"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
