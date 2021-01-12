@@ -33,49 +33,49 @@ namespace AppGallary.XamarinForms.Listas.ListaControle
                 {
                     Nome = "Uno",
                     Motorizacao = "1.0",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Uno.",
                     ItemsDeSerie = "Airbags, Direção Hidráulica"
                 },
                 new Carro
                 {
                     Nome = "Argo",
                     Motorizacao = "1.0 - 1.4",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "O Kit Cross transforma o seu Argo em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Hidráulica"
                 },
                 new Carro
                 {
                     Nome = "Cronos",
                     Motorizacao = "1.0 - 1.4",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "Agora você pode dar um toque de aventura para o  Kit Cross.",
                     ItemsDeSerie = "Airbags, Direção Hidráulica"
                 },
                 new Carro
                 {
                     Nome = "Toro",
                     Motorizacao = "1.8, 2.0, 2.4 e 2.0TD",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "O Kit Cross transforma o seu Toro em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
                 },
                 new Carro
                 {
                     Nome = "Grand Siena",
                     Motorizacao = "1.0 - 1.8",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Grand Siena. O Kit Cross transforma o seu Grand Siena em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
                 },
                 new Carro
                 {
                     Nome = "Strada",
                     Motorizacao = "1.0 - 1.8",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "Agora você pode dar um toque de aventura para o seu Strada, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
                 },
                 new Carro
                 {
                     Nome = "Dublò",
                     Motorizacao = "1.0 - 1.8",
-                    Descricao = "Agora você pode dar um toque de aventura para o seu Mobi Way. O Kit Cross transforma o seu Mobi em um autêntico debravador da vida urbana, com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
+                    Descricao = "Agora com detalhes inconfundíveis que traduzem exclusividade para o seu design único.",
                     ItemsDeSerie = "Airbags, Direção Elétrica, ArCon"
                 }
             };

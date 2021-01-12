@@ -5,10 +5,17 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="ListView" />
-            <ListView x:Name="Lista01">
+            <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows" />
+            <ListView x:Name="Lista01" SeparatorVisibility="Default" SeparatorColor="Blue" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Nome}" TextColor="Black" Detail="{Binding Motorizacao}"/>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="16"/>
+                                <Label Text="{Binding Motorizacao}" FontAttributes="Italic" />
+                                <Label Text="{Binding Descricao}" FontAttributes="Italic" />
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
