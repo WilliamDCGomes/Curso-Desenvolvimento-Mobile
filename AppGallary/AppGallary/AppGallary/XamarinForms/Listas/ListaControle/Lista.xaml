@@ -3,22 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Listas.ListaControle.Lista">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="ListView" />
-            <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows" />
-            <ListView x:Name="Lista01" SeparatorVisibility="Default" SeparatorColor="Blue" HasUnevenRows="True">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout Padding="10">
-                                <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="16"/>
-                                <Label Text="{Binding Motorizacao}" FontAttributes="Italic" />
-                                <Label Text="{Binding Descricao}" FontAttributes="Italic" />
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+        <ListView x:Name="Lista01" VerticalScrollBarVisibility="Never" Footer="Rodapé" SeparatorVisibility="Default" SeparatorColor="Blue" HasUnevenRows="True">
+            <ListView.Header>
+                <StackLayout>
+                    <Label Text="ListView" />
+                    <Label Text="Propriedades: ItemsSource, ItemTemplate, SeparatorVisibility, SeparatorColor, HasUnevenRows, Header, Footer, VerticalScrollBarVisibility" />
+                </StackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Nome}" FontAttributes="Bold" FontSize="16"/>
+                            <Label Text="{Binding Motorizacao}" FontAttributes="Italic" />
+                            <Label Text="{Binding Descricao}" FontAttributes="Italic" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
