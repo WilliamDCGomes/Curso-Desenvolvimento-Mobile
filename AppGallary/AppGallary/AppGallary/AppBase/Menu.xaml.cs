@@ -238,5 +238,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Controles.ExpansorControle.Expansor());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirTableView(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.TabelaControle.Tabela());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

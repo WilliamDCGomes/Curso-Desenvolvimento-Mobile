@@ -2096,3 +2096,4 @@ C:\Users\willi\Desktop\Curso-Desenvolvimento-Mobile\AppGallary\AppGallary\AppGal
 C:\Users\willi\Desktop\Curso-Desenvolvimento-Mobile\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\raw\spacedu.mp4
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\raw\alarm.mp3
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\foto.jpg

@@ -49,6 +49,9 @@
                     <Button Text="WebView" Clicked="AbrirWebView"/>
                     <Button Text="MediaElement" Clicked="AbrirMediaElement"/>
                     <Button Text="Expander" Clicked="AbrirExpander"/>
+
+                    <Label Text="Listas"/>
+                    <Button Text="TableView" Clicked="AbrirTableView"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
