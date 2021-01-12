@@ -10,7 +10,7 @@
                 <TableView HasUnevenRows="True" >
                     <TableRoot>
                         <TableSection Title="Gerência">
-                            <TextCell Text="Geraldo Rodrigues Souza" TextColor="Black" Detail="Gerente de TI" DetailColor="Gray"/>
+                            <TextCell Tapped="TextCell_Tapped" Text="Geraldo Rodrigues Souza" TextColor="Black" Detail="Gerente de TI" DetailColor="Gray"/>
                             <TextCell Text="José Rodrigues Souza" TextColor="Black" Detail="Gerente Financeiro" DetailColor="Gray"/>
                             <TextCell Text="Edson Rodrigues Souza" TextColor="Black" Detail="Gerente de Comunicação" DetailColor="Gray"/>
                         </TableSection>

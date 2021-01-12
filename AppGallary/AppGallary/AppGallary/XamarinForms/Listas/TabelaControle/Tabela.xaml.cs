@@ -16,5 +16,10 @@ namespace AppGallary.XamarinForms.Listas.TabelaControle
         {
             InitializeComponent();
         }
+
+        private void TextCell_Tapped(object sender, EventArgs e)
+        {
+            ((TextCell)sender).Text += "(Clicado!)";
+        }
     }
 }
