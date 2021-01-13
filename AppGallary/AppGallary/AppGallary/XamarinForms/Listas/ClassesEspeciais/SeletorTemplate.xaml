@@ -2,23 +2,66 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Listas.ClassesEspeciais.SeletorTemplate">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <DataTemplate x:Key="MarceariaDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10" BackgroundColor="#FFDCF1FF">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor}"></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+
+            <DataTemplate x:Key="FeiraDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10" BackgroundColor="#FFFFFCDC">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor}"></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+
+
+            <DataTemplate x:Key="CarnesDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10" BackgroundColor="#FFFFC3C3">
+                        <Label Text="{Binding Nome}" FontAttributes="Bold"/>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="R$ "></Span>
+                                    <Span Text="{Binding Valor}"></Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="DataTemplateSelector" />
             <Label Text="Lista de compras" Padding="10" BackgroundColor="#F0706C" TextColor="White" FontAttributes="Bold" FontSize="16"/>
 
-            <ListView x:Name="Lista01">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Nome}" />
-                                <Label Text="{Binding Valor}" />
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <ListView x:Name="Lista01" HasUnevenRows="True" ItemTemplate="{StaticResource FeiraDataTemplate}"> </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
