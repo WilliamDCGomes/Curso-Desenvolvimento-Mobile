@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="IndicatorView" />
-            <Label Text="Propriedades" />
+            <Label Text="Propriedades: IndicatorsShape, IndicatorColor, IndicatorSize, SelectedIndicatorColor" />
             <CarouselView PeekAreaInsets="50" IndicatorView="IndicadorControle">
                 <CarouselView.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
@@ -27,13 +27,22 @@
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
-            <IndicatorView 
+            <IndicatorView
                 Margin="0, 0, 0, 10"
-                x:Name="IndicadorControle" 
-                IndicatorsShape="Square"
+                x:Name="IndicadorControle"
                 IndicatorColor="Gray"
+                IndicatorSize="10"
                 SelectedIndicatorColor="Accent"
-            />
+                HorizontalOptions="CenterAndExpand"
+            >
+                <IndicatorView.IndicatorTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="30" IsClippedToBounds="True" WidthRequest="15">
+                            <Image Source="plane.png"/>
+                        </Frame>
+                    </DataTemplate>
+                </IndicatorView.IndicatorTemplate>
+            </IndicatorView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
