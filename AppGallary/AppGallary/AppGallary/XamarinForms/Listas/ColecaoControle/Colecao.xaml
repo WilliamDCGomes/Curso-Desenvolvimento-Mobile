@@ -6,9 +6,25 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="CollectionView" />
-            <Label Text="Propriedades: ItemsSource, ItemsTemplate, Header, Footer, EmptyView, ItemsLayout, LinearItemsLayout, GridItemsLayout, HorizontalItemSpacing" />
+            <Label Text="Propriedades: ItemsSource, ItemsTemplate, Header, Footer, EmptyView, ItemsLayout, LinearItemsLayout, GridItemsLayout, HorizontalItemSpacing, IsGrouped" />
             <Label Text="Eventos: " />
-            <CollectionView x:Name="Colecao01" >
+            <CollectionView x:Name="Colecao01" IsGrouped="True">
+                <CollectionView.GroupFooterTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <BoxView HeightRequest="2" Color="Gray" HorizontalOptions="FillAndExpand" />
+                            <!--
+                            <Label Text="Fim: " Padding="0" TextColor="Red"/>
+                            <Label Text="{Binding Nome}" Padding="0" TextColor="Red"/>
+                            -->
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.GroupFooterTemplate>
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Nome}" TextColor="Red" Padding="0" />
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
                 <CollectionView.EmptyView>
                     <Label Text="Nenhum registro!" Padding="10" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="#FFFF8080" FontAttributes="Bold"/>
                 </CollectionView.EmptyView>
