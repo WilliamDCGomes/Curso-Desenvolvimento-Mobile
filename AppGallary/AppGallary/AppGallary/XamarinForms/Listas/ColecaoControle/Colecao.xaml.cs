@@ -72,6 +72,16 @@ namespace AppGallary.XamarinForms.Listas.ColecaoControle
             categorias.Add(restaurantes);
             Colecao01.RemainingItemsThreshold = -1;
         }
+
+        private void Colecao01_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (FastFood fastfood in Colecao01.SelectedItems)
+            {
+                sb.Append(fastfood.Nome + " - ");
+            }
+            lblSelecao.Text = $"Seleção: {sb}";
+        }
     }
     public class FastFood
     {
