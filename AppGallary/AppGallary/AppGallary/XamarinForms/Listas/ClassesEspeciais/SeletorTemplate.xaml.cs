@@ -79,4 +79,27 @@ namespace AppGallary.XamarinForms.Listas.ClassesEspeciais
         public double Valor { get; set; }
         public string Setor { get; set; }
     }
+    public class SelectorDataTemplateSelector : DataTemplateSelector
+    {
+        public DataTemplate MerceariaTemplate { get; set; }
+        public DataTemplate FeiraTemplate { get; set; }
+        public DataTemplate AcougueTemplate { get; set; }
+        protected override DataTemplate OnSelectTemplate(object item, BindableObject container)
+        {
+            Produto produto = (Produto)item;
+            if (produto.Setor == "Mercearia")
+            {
+                return MerceariaTemplate;
+            }
+            if (produto.Setor == "Feira")
+            {
+                return FeiraTemplate;
+            }
+            if(produto.Setor == "Açougue")
+            {
+                return AcougueTemplate;
+            }
+            return null;
+        }
+    }
 }
