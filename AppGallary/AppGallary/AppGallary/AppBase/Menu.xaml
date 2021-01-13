@@ -56,6 +56,7 @@
                     <Button Text="CollectionView" Clicked="AbrirCollectionView"/>
                     <Button Text="CarouselView" Clicked="AbrirCarouselView"/>
                     <Button Text="IndicatorView" Clicked="AbrirIndicatorView"/>
+                    <Button Text="ObservableCollection" Clicked="AbrirObservableCollection"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

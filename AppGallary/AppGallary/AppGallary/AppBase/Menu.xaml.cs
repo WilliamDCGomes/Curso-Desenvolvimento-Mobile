@@ -268,5 +268,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.IndicadorControle.Indicador());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirObservableCollection(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Listas.ClassesEspeciais.ColecaoObservavel());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
