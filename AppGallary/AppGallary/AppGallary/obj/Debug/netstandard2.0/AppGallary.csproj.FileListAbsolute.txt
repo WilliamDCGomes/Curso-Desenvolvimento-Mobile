@@ -224,3 +224,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Li
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Listas\CarrosselControle\Carrossel.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Listas\IndicadorControle\Indicador.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Listas\ClassesEspeciais\ColecaoObservavel.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Listas\ClassesEspeciais\NotificarMudancaPropriedade.xaml.g.cs

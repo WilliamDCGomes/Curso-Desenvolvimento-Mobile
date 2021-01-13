@@ -57,6 +57,7 @@
                     <Button Text="CarouselView" Clicked="AbrirCarouselView"/>
                     <Button Text="IndicatorView" Clicked="AbrirIndicatorView"/>
                     <Button Text="ObservableCollection" Clicked="AbrirObservableCollection"/>
+                    <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
