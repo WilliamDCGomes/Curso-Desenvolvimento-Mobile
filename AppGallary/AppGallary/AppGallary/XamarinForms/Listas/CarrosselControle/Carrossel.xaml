@@ -5,10 +5,15 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="CarouselView" />
-            <Label Text="Propriedades: ItemsSource, ItemTemplate, EmptyView, PeekAreaInsets, RemainingItemsThreshold" />
+            <Label Text="Propriedades: ItemsSource, ItemTemplate, EmptyView, PeekAreaInsets, RemainingItemsThreshold, ItemsLayout" />
             <Label Text="Eventos: RemainingItemsThresholdReached" />
 
-            <CarouselView x:Name="Carrossel01" PeekAreaInsets="50" RemainingItemsThreshold="1" RemainingItemsThresholdReached="Carrossel01_RemainingItemsThresholdReached">
+            <CarouselView x:Name="Carrossel01" Position="3" PeekAreaInsets="50" RemainingItemsThreshold="1" RemainingItemsThresholdReached="Carrossel01_RemainingItemsThresholdReached">
+                <!--
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal"/>
+                </CarouselView.ItemsLayout>
+                -->
                 <CarouselView.EmptyView>
                     <StackLayout>
                         <Label Text="Nenhum registro encontrado!" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
