@@ -8,16 +8,23 @@
             <Label Text="Propriedades: ItemsSource, ItemTemplate" />
             <Label Text="Eventos: " />
 
-            <CarouselView x:Name="Carrossel01" >
+            <CarouselView x:Name="Carrossel01" PeekAreaInsets="50">
+                <CarouselView.EmptyView>
+                    <StackLayout>
+                        <Label Text="Nenhum registro encontrado!" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </CarouselView.EmptyView>
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
-                        <Frame>
-                            <StackLayout>
-                                <Label Text="{Binding Nome}" TextColor="Black" FontAttributes="Bold" FontSize="18"/>
-                                <Label Text="{Binding Cargo}" TextColor="Gray" FontSize="12"/>
-                                <Label Text="{Binding Descricao}" FontSize="8" TextColor="Gray"/>
-                            </StackLayout>
-                        </Frame>
+                        <StackLayout Padding="10">
+                            <Frame BorderColor="Gray" >
+                                <StackLayout>
+                                    <Label Text="{Binding Nome}" TextColor="Black" FontAttributes="Bold" FontSize="18"/>
+                                    <Label Text="{Binding Cargo}" TextColor="Gray" FontSize="12"/>
+                                    <Label Text="{Binding Descricao}" FontSize="8" TextColor="Gray"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
                     </DataTemplate>
                 </CarouselView.ItemTemplate>
             </CarouselView>
