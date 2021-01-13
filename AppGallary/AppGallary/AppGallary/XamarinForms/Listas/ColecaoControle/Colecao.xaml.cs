@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,15 +13,16 @@ namespace AppGallary.XamarinForms.Listas.ColecaoControle
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Colecao : ContentPage
     {
+        private ObservableCollection<Categorias> categorias { get; set; }
         public Colecao()
         {
             InitializeComponent();
             //Colecao01.ItemsSource = new List<FastFood>();
             Colecao01.ItemsSource = GetCategorias();
         }
-        private List<Categorias> GetCategorias()
+        private ObservableCollection<Categorias> GetCategorias()
         {
-            var categorias = new List<Categorias>();
+            categorias = new ObservableCollection<Categorias>();
             var sanduiches = new Categorias()
             {
                  new FastFood {Nome = "SubWay", QuantidadeDeFranquias = 44834},
@@ -50,6 +52,25 @@ namespace AppGallary.XamarinForms.Listas.ColecaoControle
             categorias.Add(pizzarias);
             categorias.Add(variedades);
             return categorias;
+        }
+
+        private void Colecao01_RemainingItemsThresholdReached(object sender, EventArgs e)
+        {
+            var restaurantes = new Categorias()
+            {
+                 new FastFood {Nome = "Marmitex", QuantidadeDeFranquias = 10},
+                 new FastFood {Nome = "Jhon Hamburguers", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Mix", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Marieta", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Mix", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Churrascaria Brasil", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Churrascaria São Paulo", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Churrascaria Gaucha", QuantidadeDeFranquias = 2},
+                 new FastFood {Nome = "Churrascaria Palmeiras", QuantidadeDeFranquias = 2},
+            };
+            restaurantes.Nome = "Restaurantes";
+            categorias.Add(restaurantes);
+            Colecao01.RemainingItemsThreshold = -1;
         }
     }
     public class FastFood
