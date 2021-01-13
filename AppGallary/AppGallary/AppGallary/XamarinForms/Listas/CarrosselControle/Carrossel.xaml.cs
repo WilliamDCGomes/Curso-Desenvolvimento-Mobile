@@ -38,6 +38,22 @@ namespace AppGallary.XamarinForms.Listas.CarrosselControle
             colaboradores.Add(new Colaborador() { Nome = "Jéssica Rodrigues", Cargo = "Web Designer", Descricao = "Sou WebDesigner desde 2010. Conheço CSS, HTML, Photoshop, AfterAffex, Illustrator e 3D MAX" });
             Carrossel01.RemainingItemsThreshold = -1;
         }
+
+        private void Carrossel01_PositionChanged(object sender, PositionChangedEventArgs e)
+        {
+            lblPosition.Text = $"Posição atual: {e.CurrentPosition}\nPosição anterior: {e.PreviousPosition}";
+        }
+
+        private void Carrossel01_CurrentItemChanged(object sender, CurrentItemChangedEventArgs e)
+        {
+            var colaborador = (Colaborador)e.CurrentItem;
+            lblItem.Text = $"Nome: {colaborador.Nome}";
+        }
+
+        private void Carrossel01_Scrolled(object sender, ItemsViewScrolledEventArgs e)
+        {
+            lblScroll.Text = $"ScrollX: {e.HorizontalOffset}";
+        }
     }
     public class Colaborador
     {
