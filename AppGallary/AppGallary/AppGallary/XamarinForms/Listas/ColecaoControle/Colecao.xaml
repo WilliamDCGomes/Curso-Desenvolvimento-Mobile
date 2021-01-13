@@ -40,7 +40,21 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
+                        <StackLayout Padding="10">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#F2F2F2" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                    <VisualState x:Name="Selected" >
+                                        <VisualState.Setters>
+                                            <Setter Property="BackgroundColor" Value="#FFB1E5FF" />
+                                        </VisualState.Setters>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
                             <Label Text="{Binding Nome}" TextColor="Black"/>
                             <Label Text="{Binding QuantidadeDeFranquias}" TextColor="Gray"/>
                         </StackLayout>
