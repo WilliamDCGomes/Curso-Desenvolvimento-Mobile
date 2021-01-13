@@ -138,6 +138,9 @@
     <EmbeddedResource Update="XamarinForms\Listas\ClassesEspeciais\NotificarMudancaPropriedade.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Listas\ClassesEspeciais\SeletorTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Listas\ColecaoControle\Colecao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

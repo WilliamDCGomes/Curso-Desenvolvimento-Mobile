@@ -58,6 +58,7 @@
                     <Button Text="IndicatorView" Clicked="AbrirIndicatorView"/>
                     <Button Text="ObservableCollection" Clicked="AbrirObservableCollection"/>
                     <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged"/>
+                    <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
