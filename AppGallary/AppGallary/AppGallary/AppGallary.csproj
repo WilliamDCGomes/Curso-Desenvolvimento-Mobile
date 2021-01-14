@@ -99,6 +99,9 @@
     <EmbeddedResource Update="XamarinForms\Controles\TempoSelecaoControle\TempoSelecao.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="XamarinForms\Estilos\EstiloDinamico\Dinamico.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Estilos\EstiloExplicito\Explicito.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
