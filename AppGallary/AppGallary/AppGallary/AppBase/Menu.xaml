@@ -59,6 +59,9 @@
                     <Button Text="ObservableCollection" Clicked="AbrirObservableCollection"/>
                     <Button Text="INotifyPropertyChanged" Clicked="AbrirINotifyPropertyChanged"/>
                     <Button Text="DataTemplateSelector" Clicked="AbrirDataTemplateSelector"/>
+
+                    <Label Text="Estilos"/>
+                    <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
