@@ -62,6 +62,7 @@
 
                     <Label Text="Estilos"/>
                     <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle"/>
+                    <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
