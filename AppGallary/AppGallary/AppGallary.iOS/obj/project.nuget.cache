@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "R3d1fY9aYlAD9gfbB/EDQ0UuDnStRJ7UkLasSU/s3+bFIJGy/b7ANgTEoNNImF6KQoUrdgoD96K2HwaFSH6xfQ==",
+  "dgSpecHash": "+SRBl1iainYgkFjr/H6tWFDqLg/RKPiayhITQ2HNnqU5CTqS1AVGBocww0lNO015kcsyQpMSkynkN95f24lZVQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.iOS\\AppGallary.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\supor\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []
 }

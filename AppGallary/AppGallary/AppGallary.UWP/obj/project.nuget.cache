@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YjwCf7lACQD1zaCas3ftsp5+kCZEpRDPtKTP2hYbqD2qrAxUOLJz09rxduYrXsOJVjKtYcXgiH12xdsyopqx1Q==",
+  "dgSpecHash": "mtpHpd0moCdERo6hPAC2bLCVFaUiTO+Buf3M4M7NxJ06GcOX6xudYZvTl7i3AX5B5rCtNemn9ykZpJtC1QO3DA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.UWP\\AppGallary.UWP.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,8 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\win2d.uwp\\1.20.0\\win2d.uwp.1.20.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }
