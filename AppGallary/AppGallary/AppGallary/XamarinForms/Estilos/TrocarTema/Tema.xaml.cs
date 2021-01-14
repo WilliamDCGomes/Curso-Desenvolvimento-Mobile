@@ -22,11 +22,13 @@ namespace AppGallary.XamarinForms.Estilos.TrocarTema
         {
             if (!ThemeLight)
             {
-                Resources = new LightTheme();
+                App.Current.Resources = new LightTheme();
+                //Resources = new LightTheme();
             }
             else
             {
-                Resources = new DarkTheme();
+                App.Current.Resources = new DarkTheme();
+                //Resources = new DarkTheme();
             }
             ThemeLight = !ThemeLight;
         }
