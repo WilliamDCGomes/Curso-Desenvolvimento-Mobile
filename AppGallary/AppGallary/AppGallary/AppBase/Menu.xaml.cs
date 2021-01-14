@@ -334,5 +334,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.MaterialDesign.Material());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirFont(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.FontePersonalizada.Fonte());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

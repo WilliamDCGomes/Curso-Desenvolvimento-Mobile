@@ -69,6 +69,7 @@
                     <Button Text="StyleClass" Clicked="AbrirStyleClass"/>
                     <Button Text="VisualStateManager" Clicked="AbrirVisualStateManager"/>
                     <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign"/>
+                    <Button Text="Font" Clicked="AbrirFont"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
