@@ -68,6 +68,7 @@
                     <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle"/>
                     <Button Text="StyleClass" Clicked="AbrirStyleClass"/>
                     <Button Text="VisualStateManager" Clicked="AbrirVisualStateManager"/>
+                    <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
