@@ -66,6 +66,7 @@
                     <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle"/>
                     <Button Text="InheritStyle" Clicked="AbrirInheritStyle"/>
                     <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle"/>
+                    <Button Text="StyleClass" Clicked="AbrirStyleClass"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
