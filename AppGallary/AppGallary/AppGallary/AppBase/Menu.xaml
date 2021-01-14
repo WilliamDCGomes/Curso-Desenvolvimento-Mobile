@@ -67,6 +67,7 @@
                     <Button Text="InheritStyle" Clicked="AbrirInheritStyle"/>
                     <Button Text="DynamicStyle" Clicked="AbrirDynamicStyle"/>
                     <Button Text="StyleClass" Clicked="AbrirStyleClass"/>
+                    <Button Text="VisualStateManager" Clicked="AbrirVisualStateManager"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

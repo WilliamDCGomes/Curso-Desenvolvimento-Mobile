@@ -232,3 +232,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Es
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloHerdado\Herdado.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloDinamico\Dinamico.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\EstiloClasse\Classe.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\VSM\VSM.xaml.g.cs
