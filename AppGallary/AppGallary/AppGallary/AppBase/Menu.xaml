@@ -64,6 +64,7 @@
                     <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle"/>
                     <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle"/>
                     <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle"/>
+                    <Button Text="InheritStyle" Clicked="AbrirInheritStyle"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
