@@ -63,6 +63,7 @@
                     <Label Text="Estilos"/>
                     <Button Text="ExplicitStyle" Clicked="AbrirExplicitStyle"/>
                     <Button Text="ImplicitStyle" Clicked="AbrirImplicitStyle"/>
+                    <Button Text="GlobalStyle" Clicked="AbrirGlobalStyle"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
