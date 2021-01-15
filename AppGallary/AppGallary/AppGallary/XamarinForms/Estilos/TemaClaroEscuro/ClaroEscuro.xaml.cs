@@ -15,6 +15,27 @@ namespace AppGallary.XamarinForms.Estilos.TemaClaroEscuro
         public ClaroEscuro()
         {
             InitializeComponent();
+            
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {/*
+            if (Application.Current.RequestedTheme == OSAppTheme.Light)
+            {*/
+                StackLayoutProperty.BackgroundColor = corFundo;
+                label1.TextColor = corTexto;
+                label2.TextColor = corTexto;
+                label3.TextColor = corTexto;
+                label4.TextColor = corTexto;
+                label2.Text = lblTituloEn;
+                label3.Text = lblTituloPt;
+                frameSetting.BackgroundColor = frameFundo;
+                frameSetting.BorderColor = frameBorda;
+           /* }
+            else
+            {
+
+            }*/
         }
     }
 }

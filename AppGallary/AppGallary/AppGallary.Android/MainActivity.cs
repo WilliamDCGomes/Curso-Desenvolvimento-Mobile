@@ -18,14 +18,13 @@ namespace AppGallary.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-            Xamarin.Forms.Forms.SetFlags(new string[] { 
-                "AppTheme_Experimental", 
-                "SwipeView_Experimental", 
-                "MediaElement_Experimental", 
-                "Expander_Experimental", 
-                "CarouselView_Experimental", 
-                "IndicatorView_Experimental" 
-            });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "AppTheme_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "SwipeView_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "MediaElement_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "Expander_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "CarouselView_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental" });
+            Xamarin.Forms.Forms.SetFlags(new string[] { "IndicatorView_Experimental" });
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);

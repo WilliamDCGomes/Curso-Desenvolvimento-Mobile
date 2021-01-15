@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nxpl4VX7BsBjHAnl+cDc+yL6E0Q+xdgaonXH2dxvIavtuBFejEN2lIxjFs+P+MSATkhRpvHPYm7j9aSgNvqpzQ==",
+  "dgSpecHash": "FGYRlOkH2lwddoksLdr18r5lk4DBzMIMXJ0z3LegaRLUqx+26zM2ruVdpMnt7qt6Xx5yP9n4+3hxJeehJ1WgoA==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,8 @@
     "C:\\Users\\supor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512"
+    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms.visual.material\\4.6.0.726\\xamarin.forms.visual.material.4.6.0.726.nupkg.sha512"
   ],
   "logs": []
 }

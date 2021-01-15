@@ -17,8 +17,6 @@ public class MaterialButtonRenderer
 			"n_draw:(Landroid/graphics/Canvas;)V:GetDraw_Landroid_graphics_Canvas_Handler\n" +
 			"n_onTouchEvent:(Landroid/view/MotionEvent;)Z:GetOnTouchEvent_Landroid_view_MotionEvent_Handler\n" +
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
-			"n_isEnabled:()Z:GetIsEnabledHandler\n" +
-			"n_setEnabled:(Z)V:GetSetEnabled_ZHandler\n" +
 			"n_onViewAttachedToWindow:(Landroid/view/View;)V:GetOnViewAttachedToWindow_Landroid_view_View_Handler:Android.Views.View/IOnAttachStateChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onViewDetachedFromWindow:(Landroid/view/View;)V:GetOnViewDetachedFromWindow_Landroid_view_View_Handler:Android.Views.View/IOnAttachStateChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_onFocusChange:(Landroid/view/View;Z)V:GetOnFocusChange_Landroid_view_View_ZHandler:Android.Views.View/IOnFocusChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -75,22 +73,6 @@ public class MaterialButtonRenderer
 	}
 
 	private native void n_onLayout (boolean p0, int p1, int p2, int p3, int p4);
-
-
-	public boolean isEnabled ()
-	{
-		return n_isEnabled ();
-	}
-
-	private native boolean n_isEnabled ();
-
-
-	public void setEnabled (boolean p0)
-	{
-		n_setEnabled (p0);
-	}
-
-	private native void n_setEnabled (boolean p0);
 
 
 	public void onViewAttachedToWindow (android.view.View p0)

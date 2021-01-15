@@ -18,7 +18,6 @@ android.support.v7.widget.Toolbar;C:\Dev\AppGallary\AppGallary\AppGallary.Androi
 android.support.v7.widget.Toolbar;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 attr;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
-attr;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher_round.xml
 bitmap;obj\Debug\90\res\drawable\splashscreen.xml
@@ -26,7 +25,6 @@ cache-path;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\38\jl
 color;obj\Debug\90\res\drawable\splashscreen.xml
 color;obj\Debug\90\res\values\colors.xml
 corners;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\drawable\materialprogressbar.xml
-declare-styleable;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\attrs.xml
 external-cache-path;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\ic_launcher.xml
@@ -44,8 +42,6 @@ LinearLayout;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\
 paths;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\values-v21\styles.xml
-resources;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\attrs.xml
-resources;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\strings.xml
 resources;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
@@ -60,7 +56,6 @@ shape;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\
 solid;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\drawable\materialactivityindicatorbackground.xml
 solid;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\drawable\materialprogressbar.xml
 solid;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\drawable-v24\materialactivityindicatorbackground.xml
-string;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\strings.xml
 style;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\39\jl\res\values-v21\styles.xml
 style;C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml

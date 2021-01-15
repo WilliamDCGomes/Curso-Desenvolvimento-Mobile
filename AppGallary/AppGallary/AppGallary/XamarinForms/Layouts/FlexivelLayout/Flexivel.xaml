@@ -16,7 +16,7 @@
                 <Label Text="Coluna 04" BackgroundColor="Black" TextColor="White" Padding="10"/>
                 <Label Text="Coluna 05" BackgroundColor="Black" TextColor="White" Padding="10"/>
             </FlexLayout>
-            <FlexLayout FlexLayout.Grow="1" Wrap="Reverse" Direction="Row" AlignContent="End" AlignItems="Start" JustifyContent="Center" Background="#9CFFD0">
+            <FlexLayout FlexLayout.Grow="1" Wrap="Reverse" Direction="Row" AlignContent="End" AlignItems="Start" JustifyContent="Center">
                 <BoxView BackgroundColor="Black" Margin="1"/>
                 <BoxView BackgroundColor="Black" Margin="1"/>
                 <BoxView BackgroundColor="Black" Margin="1"/>

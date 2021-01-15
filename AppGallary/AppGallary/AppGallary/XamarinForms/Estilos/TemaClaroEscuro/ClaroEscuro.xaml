@@ -2,15 +2,27 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.XamarinForms.Estilos.TemaClaroEscuro.ClaroEscuro">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Light/Dark Theme" />
 
-            <Label Text="Light" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
-            <Label Text="(Claro)" HorizontalOptions="CenterAndExpand" FontSize="10"/>
-            <Frame WidthRequest="150" BorderColor="Black" HeightRequest="150" HorizontalOptions="Center" Margin="0, 80, 0, 0">
-                <Label Text="A" FontSize="100" HorizontalTextAlignment="Center" TextColor="Black"/>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <AppThemeColor x:Name="corFundo" x:Key="CorDoFundo" Light="White" Dark="Black" />
+            <AppThemeColor x:Name="corTexto" x:Key="CorDoTexto" Light="Black" Dark="White" />
+            <AppThemeColor x:Name="frameBorda" x:Key="FrameBorda" Light="Black" Dark="#333333" />
+            <AppThemeColor x:Name="frameFundo" x:Key="FrameCorFundo" Light="White" Dark="#333333" />
+            <OnAppTheme x:Name="lblTituloEn" x:Key="LblTituloEN" x:TypeArguments="x:String" Light="Light" Dark="Dark"/>
+            <OnAppTheme x:Name="lblTituloPt" x:Key="LblTituloPT" x:TypeArguments="x:String" Light="(claro)" Dark="(escuro)"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout x:Name="StackLayoutProperty" BackgroundColor="{DynamicResource CorDoFundo}">
+            <Label x:Name="label1" Text="Light/Dark Theme" TextColor="{DynamicResource CorDoTexto}"/>
+
+            <Label x:Name="label2" Text="{DynamicResource LblTituloEN}" TextColor="{DynamicResource CorDoTexto}" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+            <Label x:Name="label3" Text="{DynamicResource LblTituloPT}" TextColor="{DynamicResource CorDoTexto}" HorizontalOptions="CenterAndExpand" FontSize="10"/>
+            <Frame x:Name="frameSetting" WidthRequest="150" BackgroundColor="{DynamicResource FrameCorFundo}" BorderColor="{DynamicResource FrameBorda}" HeightRequest="150" HorizontalOptions="Center" Margin="0, 80, 0, 0">
+                <Label x:Name="label4" Text="A" FontSize="100" FontAttributes="{OnAppTheme Light=Bold,Dark=Italic}" HorizontalTextAlignment="Center" TextColor="{DynamicResource CorDoTexto}"/>
             </Frame>
+            <Button Text="Alterar Tema!" HorizontalOptions="FillAndExpand" CornerRadius="40" Padding="20" BackgroundColor="Accent" TextColor="White"  Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
