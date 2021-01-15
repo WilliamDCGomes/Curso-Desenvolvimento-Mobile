@@ -5,7 +5,14 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Animation" />
-            <BoxView BackgroundColor="Accent" Opacity="1" Rotation="45" RotationX="70" RotationY="40" TranslationX="-50" TranslationY="-10" HorizontalOptions="Center" VerticalOptions="Center" />
+            <BoxView x:Name="Box" WidthRequest="100" HeightRequest="100" CornerRadius="5" BackgroundColor="Accent" Opacity="1" Rotation="0" RotationX="0" RotationY="0" TranslationX="0" TranslationY="0" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button Text="Translate" Clicked="BtnTranslate"/>
+                <Button Text="Rotation" Clicked="BtnRotate"/>
+                <Button Text="Scale" Clicked="BtnScale"/>
+                <Button Text="Opacity" Clicked="BtnOpacity"/>
+                <Button Text="Everthing" Clicked="Button_Clicked" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
