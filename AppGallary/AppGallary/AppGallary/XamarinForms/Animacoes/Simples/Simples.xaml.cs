@@ -101,5 +101,14 @@ namespace AppGallary.XamarinForms.Animacoes.Simples
                 );
             }
         }
+
+        private async void AnimacaoPersonalizada(object sender, EventArgs e)
+        {
+            var animacao = new Animation(v=>Box.CornerRadius = v, 5, 100, Easing.Linear);
+            animacao.Commit(Box, "CornerAnimation", 500, 1000, Easing.Linear, null, () => true);
+            await Task.Delay(3000);
+            var animacao2 = new Animation(v=>Box.CornerRadius = v, 100, 0, Easing.Linear);
+            animacao2.Commit(Box, "CornerAnimation", 300, 1000, Easing.Linear, null, () => true);
+        }
     }
 }

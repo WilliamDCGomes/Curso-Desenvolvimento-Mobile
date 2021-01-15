@@ -13,6 +13,7 @@
                 <Button Text="Opacity" Clicked="BtnOpacity"/>
                 <Button x:Name="everthing" Text="Começar todas" Clicked="Button_Clicked" />
                 <Button x:Name="combination" Text="Animação Combinada" Clicked="BtnAnimacaoCombinada" />
+                <Button Text="Animação Personalizada" Clicked="AnimacaoPersonalizada" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
