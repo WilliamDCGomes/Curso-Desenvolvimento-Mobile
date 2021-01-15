@@ -72,6 +72,9 @@
                     <Button Text="Font" Clicked="AbrirFont"/>
                     <Button Text="ChangeTheme" Clicked="AbrirChangeTheme"/>
                     <Button Text="LightDarkTheme" Clicked="AbrirLightDarkTheme"/>
+
+                    <Label Text="Animação"/>
+                    <Button Text="Simples" Clicked="AbrirSimples"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

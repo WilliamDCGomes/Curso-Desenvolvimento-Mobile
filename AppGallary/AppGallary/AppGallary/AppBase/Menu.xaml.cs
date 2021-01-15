@@ -352,5 +352,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Estilos.TemaClaroEscuro.ClaroEscuro());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirSimples(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Animacoes.Simples.Simples());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
