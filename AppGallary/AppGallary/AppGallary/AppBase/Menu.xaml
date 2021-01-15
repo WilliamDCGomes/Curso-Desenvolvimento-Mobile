@@ -71,6 +71,7 @@
                     <Button Text="MaterialDesign" Clicked="AbrirMaterialDesign"/>
                     <Button Text="Font" Clicked="AbrirFont"/>
                     <Button Text="ChangeTheme" Clicked="AbrirChangeTheme"/>
+                    <Button Text="LightDarkTheme" Clicked="AbrirLightDarkTheme"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

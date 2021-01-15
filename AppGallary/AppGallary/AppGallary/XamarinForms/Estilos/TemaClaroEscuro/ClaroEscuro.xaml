@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Estilos.TemaClaroEscuro.ClaroEscuro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Light/Dark Theme" />
+
+            <Label Text="Light" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+            <Label Text="(Claro)" HorizontalOptions="CenterAndExpand" FontSize="10"/>
+            <Frame WidthRequest="150" BorderColor="Black" HeightRequest="150" HorizontalOptions="Center" Margin="0, 80, 0, 0">
+                <Label Text="A" FontSize="100" HorizontalTextAlignment="Center" TextColor="Black"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

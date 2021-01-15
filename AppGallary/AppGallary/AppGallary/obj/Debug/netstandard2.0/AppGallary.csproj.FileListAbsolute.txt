@@ -82,3 +82,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.pdb
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\DarkTheme.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\LightTheme.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\TrocarTema\Tema.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Estilos\TemaClaroEscuro\ClaroEscuro.xaml.g.cs
