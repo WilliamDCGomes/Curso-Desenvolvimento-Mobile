@@ -11,7 +11,8 @@
                 <Button Text="Rotation" Clicked="BtnRotate"/>
                 <Button Text="Scale" Clicked="BtnScale"/>
                 <Button Text="Opacity" Clicked="BtnOpacity"/>
-                <Button Text="Everthing" Clicked="Button_Clicked" />
+                <Button x:Name="everthing" Text="Começar todas" Clicked="Button_Clicked" />
+                <Button x:Name="combination" Text="Animação Combinada" Clicked="BtnAnimacaoCombinada" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
