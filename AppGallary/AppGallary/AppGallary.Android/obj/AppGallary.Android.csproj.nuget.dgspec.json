@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj": {}
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj": {
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
+        "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
         "projectName": "AppGallary.Android",
-        "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
-        "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\obj\\",
+        "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
-                "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
+              "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
+                "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj"
               }
             }
           }
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj",
+        "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj",
         "projectName": "AppGallary",
-        "projectPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj",
-        "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary\\obj\\",
+        "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\AppGallary.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

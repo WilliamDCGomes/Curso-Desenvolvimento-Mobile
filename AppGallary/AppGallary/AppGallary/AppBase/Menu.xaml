@@ -75,6 +75,9 @@
 
                     <Label Text="Animação"/>
                     <Button Text="Simples" Clicked="AbrirSimples"/>
+
+                    <Label Text="Gestos"/>
+                    <Button Text="GestosSimples" Clicked="AbrirGestosSimples"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

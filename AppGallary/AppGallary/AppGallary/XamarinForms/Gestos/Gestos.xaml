@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.XamarinForms.Gestos.Gestos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Gestos" />
+            
+                <Label Text="Toque (Tap)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray"/>
+                <Frame Margin="10">
+                    <Label Text="-" x:Name="LblTap"/>
+                </Frame>
+
+                <Label Text="Toque Longo (Pan)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Frame Margin="10">
+                    <Label Text="-" x:Name="LblPan" />
+                </Frame>
+
+                <Label Text="Pinça (Pinch)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Frame Margin="10">
+                    <Label Text="-" x:Name="LblPinch" />
+                </Frame>
+
+                <Label Text="Arrastar (Swipe)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Frame Margin="10">
+                    <Label Text="-" x:Name="LblSwipe" />
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

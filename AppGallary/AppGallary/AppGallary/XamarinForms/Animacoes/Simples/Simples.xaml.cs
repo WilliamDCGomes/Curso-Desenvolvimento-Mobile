@@ -115,8 +115,9 @@ namespace AppGallary.XamarinForms.Animacoes.Simples
             var animacao = new Animation(v=>Box.CornerRadius = v, 5, 100, Easing.Linear);
             animacao.Commit(Box, "CornerAnimation", 500, 1000, Easing.Linear, null, () => true);
             await Task.Delay(3000);
-            var animacao2 = new Animation(v=>Box.CornerRadius = v, 100, 0, Easing.Linear);
-            animacao2.Commit(Box, "CornerAnimation", 300, 1000, Easing.Linear, null, () => true);
+            animacao = new Animation(v=>Box.CornerRadius = v, 100, 5, Easing.Linear);
+            animacao.Commit(Box, "CornerAnimation", 500, 1000, Easing.Linear, null, () => true);
+            await Task.Delay(3000);
         }
 
         private async void BtnColor(object sender, EventArgs e)

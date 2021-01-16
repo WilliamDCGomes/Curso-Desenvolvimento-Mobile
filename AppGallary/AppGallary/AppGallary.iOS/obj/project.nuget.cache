@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "P8oViwAjAKmwHET6zKtFzgfTHA7cd+/FPd+QxVFd/OKsjibTOaDEsrRRDfU7yD0ffmGg0zeOhtZk2ByCO8WslQ==",
+  "dgSpecHash": "gnja33Haqox5yt7iM2tCMtvuRlosLsSzNyrVySjlDdV77c1IrYZi390JaZq7GzdXY01uC2PPazDBSww690SUpg==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.iOS\\AppGallary.iOS.csproj",
+  "projectFilePath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppGallary\\AppGallary\\AppGallary.iOS\\AppGallary.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\xamarin.forms.visual.material\\4.6.0.726\\xamarin.forms.visual.material.4.6.0.726.nupkg.sha512",
-    "C:\\Users\\supor\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\xamarin.forms\\4.6.0.726\\xamarin.forms.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\xamarin.forms.visual.material\\4.6.0.726\\xamarin.forms.visual.material.4.6.0.726.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
   ],
   "logs": []
 }
