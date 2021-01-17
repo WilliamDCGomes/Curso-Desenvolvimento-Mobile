@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            BarBackgroundColor="Black" 
+            SelectedTabColor="White"
+            UnselectedTabColor="White"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            x:Class="AppGallary.XamarinForms.Instagram.Home.Home">
+    <ContentPage IconImageSource="home.png">
+        <RefreshView RefreshColor="White" BackgroundColor="Black" IsRefreshing="False" Refreshing="refresh" >
+            <StackLayout BackgroundColor="Black">
+                <Frame Padding="5" BackgroundColor="Black" Margin="0">
+                    <StackLayout Orientation="Horizontal" >
+                        <Image Source="LogoBlack.jpg" HorizontalOptions="StartAndExpand" WidthRequest="120" HeightRequest="50"/>
+                        <Frame HorizontalOptions="EndAndExpand" BackgroundColor="Black">
+                            <StackLayout Orientation="Horizontal" Spacing="30">
+                                <Button 
+                                    HeightRequest="23" 
+                                    WidthRequest="23"
+                                    BackgroundColor="Black" 
+                                    ImageSource="mais.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    />
+                                <Button 
+                                    HeightRequest="20" 
+                                    WidthRequest="20"
+                                    BackgroundColor="Black" 
+                                    ImageSource="coracaoIco.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    />
+                                <Button 
+                                    HeightRequest="20" 
+                                    WidthRequest="20"
+                                    BackgroundColor="Black" 
+                                    ImageSource="planeIco.png"
+                                    HorizontalOptions="EndAndExpand"
+                                    />
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+                <ScrollView>
+                    <StackLayout BackgroundColor="Black">
+                        <Frame HeightRequest="110" WidthRequest="200" Padding="5" BackgroundColor="Black" Margin="0">
+                            <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                                <StackLayout Orientation="Horizontal" BackgroundColor="Black">
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="eu.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="Your Story" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="person1ComStorie.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="Sofia" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="person2ComStorie.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="João" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="person3ComStorie.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="Nathália" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="person4ComStorie.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="Paulo" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Frame HeightRequest="80" WidthRequest="70" Padding="5" BackgroundColor="Black">
+                                        <StackLayout BackgroundColor="Black">
+                                            <Button ImageSource="person5ComStorie.png" CornerRadius="100" BackgroundColor="Black" VerticalOptions="Center" HeightRequest="70" WidthRequest="70"/>
+                                            <Label Text="Carol" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ScrollView>
+                        </Frame>
+                        <Frame BackgroundColor="Black">
+                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </Frame>
+                        <Frame BackgroundColor="Black">
+                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </Frame>
+                        <Frame BackgroundColor="Black">
+                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </Frame>
+                        <Frame BackgroundColor="Black">
+                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </Frame>
+                        <Frame BackgroundColor="Black">
+                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+        </RefreshView>
+    </ContentPage>
+    <ContentPage IconImageSource="search.png">
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage IconImageSource="play.png">
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage IconImageSource="shop.png">
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage IconImageSource="profileIco.png" >
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

@@ -364,5 +364,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Gestos.Gestos());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirInstagram(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Instagram.Home.Home());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

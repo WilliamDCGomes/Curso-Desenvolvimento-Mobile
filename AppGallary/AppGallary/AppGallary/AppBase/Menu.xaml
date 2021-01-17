@@ -78,6 +78,9 @@
 
                     <Label Text="Gestos"/>
                     <Button Text="GestosSimples" Clicked="AbrirGestosSimples"/>
+
+                    <Label Text="Instagram"/>
+                    <Button Text="Instagram" Clicked="AbrirInstagram"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
