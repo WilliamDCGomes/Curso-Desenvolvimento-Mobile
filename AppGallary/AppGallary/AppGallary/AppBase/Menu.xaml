@@ -5,7 +5,25 @@
              x:Class="AppGallary.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Style="{DynamicResource PageMenu}">
+            <StackLayout>
+                <Button Text="Recarregar" Clicked="Recarregar"/>
             
+                <CollectionView x:Name="MenuColecao" IsGrouped="True" >
+                    <CollectionView.GroupHeaderTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding Nome}" FontFamily="MontserratBold" Padding="10"/>
+                        </DataTemplate>
+                    </CollectionView.GroupHeaderTemplate>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Padding="25, 5, 10, 5">
+                                <Label Text="{Binding Nome}" />
+                                <Label Text="{Binding Descricao}" TextColor="LightGray"/>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
