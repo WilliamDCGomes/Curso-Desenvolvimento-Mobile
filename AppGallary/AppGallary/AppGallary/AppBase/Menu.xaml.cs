@@ -382,5 +382,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.Conversores.Conversor());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirMessageCenter(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.CentroDeMensagem.Pagina01());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
