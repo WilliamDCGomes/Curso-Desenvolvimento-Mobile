@@ -24,7 +24,7 @@ namespace AppGallary
             */
             MainPage = new AppBase.Menu();
         }
-        public static List<PaginaColecao> PaginaColecao
+        public static List<PaginaColecao> MenuItensColecao
         {
             get
             {

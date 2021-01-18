@@ -2,28 +2,28 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AppGallary.AppBase"
+             xmlns:viewmodel ="clr-namespace:AppGallary.AppBase.ViewModels"
              x:Class="AppGallary.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Style="{DynamicResource PageMenu}">
-            <StackLayout>
-                <Button Text="Recarregar" Clicked="Recarregar"/>
-            
-                <CollectionView x:Name="MenuColecao" IsGrouped="True" >
-                    <CollectionView.GroupHeaderTemplate>
-                        <DataTemplate>
-                            <Label Text="{Binding Nome}" FontFamily="MontserratBold" Padding="10"/>
-                        </DataTemplate>
-                    </CollectionView.GroupHeaderTemplate>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout Padding="25, 5, 10, 5">
-                                <Label Text="{Binding Nome}" />
-                                <Label Text="{Binding Descricao}" TextColor="LightGray"/>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-            </StackLayout>
+            <ContentPage.BindingContext>
+                <viewmodel:MenuViewModel />
+            </ContentPage.BindingContext>
+            <CollectionView ItemsSource="{Binding MenuItens}" IsGrouped="True" >
+                <CollectionView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Nome}" FontFamily="MontserratBold" Padding="10"/>
+                    </DataTemplate>
+                </CollectionView.GroupHeaderTemplate>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="25, 5, 10, 5">
+                            <Label Text="{Binding Nome}" />
+                            <Label Text="{Binding Descricao}" TextColor="LightGray"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>

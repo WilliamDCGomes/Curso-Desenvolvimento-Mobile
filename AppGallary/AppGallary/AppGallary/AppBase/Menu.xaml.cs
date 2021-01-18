@@ -15,12 +15,11 @@ namespace AppGallary.AppBase
         public Menu()
         {
             InitializeComponent();
-            MenuColecao.ItemsSource = App.PaginaColecao;
         }
 
         private void Recarregar(object sender, EventArgs e)
         {
-            MenuColecao.ItemsSource = App.PaginaColecao;
+
         }
     }
 }
