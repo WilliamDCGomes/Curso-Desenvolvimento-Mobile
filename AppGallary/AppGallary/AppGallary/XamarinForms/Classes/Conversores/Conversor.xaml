@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converter ="clr-namespace:AppGallary.XamarinForms.Classes.Conversores"
              x:Class="AppGallary.XamarinForms.Classes.Conversores.Conversor">
+    <ContentPage.Resources>
+        <converter:OpcionalConverter x:Key="OpcionalConverter" />
+        <converter:ValorConverter x:Key="ValorConverter" />
+    </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Converter" />
@@ -13,8 +18,8 @@
                             <StackLayout>
                                 <Label Text="{Binding Marca}" />
                                 <Label Text="{Binding Modelo}" />
-                                <Label Text="{Binding Opcionais}" />
-                                <Label Text="{Binding Valor}" />
+                                <Label Text="{Binding Opcionais, Converter={StaticResource OpcionalConverter}}" />
+                                <Label Text="{Binding Valor, Converter={StaticResource ValorConverter}}" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
