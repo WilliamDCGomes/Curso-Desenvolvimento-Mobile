@@ -83,6 +83,7 @@
                     <Button Text="Display" Clicked="AbrirDisplay"/>
                     <Button Text="Converter" Clicked="AbrirConverter"/>
                     <Button Text="MessageCenter" Clicked="AbrirMessageCenter"/>
+                    <Button Text="OnPlatform/OnIdiom" Clicked="AbrirOnPlatformOnIdiom"/>
 
                     <Label Text="Instagram"/>
                     <Button Text="Instagram" Clicked="AbrirInstagram"/>
