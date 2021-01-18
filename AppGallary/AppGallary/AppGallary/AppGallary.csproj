@@ -15,6 +15,9 @@
     <None Remove="Resources\Fonts\gotham-black.ttf" />
     <None Remove="Resources\Fonts\gotham-light.ttf" />
     <None Remove="Resources\Fonts\gotham.ttf" />
+    <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
+    <None Remove="Resources\Fonts\Montserrat-Light.ttf" />
+    <None Remove="Resources\Fonts\Montserrat-Regular.ttf" />
     <None Remove="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
@@ -23,6 +26,9 @@
     <EmbeddedResource Include="Resources\Fonts\gotham-black.ttf" />
     <EmbeddedResource Include="Resources\Fonts\gotham-light.ttf" />
     <EmbeddedResource Include="Resources\Fonts\gotham.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Montserrat-Light.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Montserrat-Regular.ttf" />
     <EmbeddedResource Include="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 

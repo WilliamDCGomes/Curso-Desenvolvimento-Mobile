@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:AppGallary.AppBase"
              x:Class="AppGallary.AppBase.Menu">
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu">
+        <ContentPage Title="Menu" Style="{DynamicResource PageMenu}">
             <ScrollView>
                 <StackLayout>
                     <Label Text="Páginas"/>

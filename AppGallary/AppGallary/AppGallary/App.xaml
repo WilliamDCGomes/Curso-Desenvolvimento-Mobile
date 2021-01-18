@@ -9,11 +9,15 @@
                 <Setter Property="TextColor" Value="White" />
             </Style>
             <AppThemeColor x:Key="PageBackgroundColor" Light="#FFFFFF" Dark="#202020" />
+            <AppThemeColor x:Key="PageMenuBackgroundColor" Light="#EDEDED" Dark="#202020" />
             <AppThemeColor x:Key="BackgroundColor" Light="#EDEDED" Dark="#000000" />
             <AppThemeColor x:Key="TextColor" Light="#000000" Dark="#FFFFFF" />
 
             <Style TargetType="Page" ApplyToDerivedTypes="True">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}" />
+            </Style>
+            <Style x:Key="PageMenu" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageMenuBackgroundColor}" />
             </Style>
             <Style TargetType="NavigationPage" >
                 <Setter Property="BarBackgroundColor" Value="{DynamicResource BackgroundColor}" />
@@ -21,10 +25,12 @@
             </Style>
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+                <Setter Property="FontFamily" Value="Montserrat" />
             </Style>
             <Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
                 <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+                <Setter Property="FontFamily" Value="Montserrat" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
