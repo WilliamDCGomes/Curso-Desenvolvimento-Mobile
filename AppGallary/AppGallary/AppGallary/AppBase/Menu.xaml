@@ -11,21 +11,21 @@
             </ContentPage.BindingContext>
             <CollectionView ItemsSource="{Binding MenuItens}" IsGrouped="True" >
                 <CollectionView.Header>
-                    <StackLayout>
+                    <StackLayout Padding="30" BackgroundColor="{DynamicResource LogoBackgroundColor}">
                         <Image Source="{DynamicResource LogoMarca}"/>
-                        <Label Text="Xamarin Forms Gallery" />
+                        <Label HorizontalTextAlignment="Center" StyleClass="FontSmall" Text="Xamarin Forms &#x0a;Gallery"/>
                     </StackLayout>
                 </CollectionView.Header>
                 <CollectionView.GroupHeaderTemplate>
                     <DataTemplate>
-                        <Label Text="{Binding Nome}" FontFamily="MontserratBold" Padding="10"/>
+                        <Label Text="{Binding Nome}" Style="{DynamicResource GroupTitle}"/>
                     </DataTemplate>
                 </CollectionView.GroupHeaderTemplate>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Padding="25, 5, 10, 5">
-                            <Label Text="{Binding Nome}" />
-                            <Label Text="{Binding Descricao}" TextColor="LightGray"/>
+                            <Label Text="{Binding Nome}" Style="{DynamicResource PageNameTitle}" />
+                            <Label Text="{Binding Descricao}" Style="{DynamicResource PageDescriptionTitle}"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

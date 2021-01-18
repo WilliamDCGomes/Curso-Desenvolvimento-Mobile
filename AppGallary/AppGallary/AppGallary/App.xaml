@@ -26,7 +26,11 @@
             <AppThemeColor x:Key="PageMenuBackgroundColor" Light="#EDEDED" Dark="#202020" />
             <AppThemeColor x:Key="BackgroundColor" Light="#EDEDED" Dark="#000000" />
             <AppThemeColor x:Key="TextColor" Light="#000000" Dark="#FFFFFF" />
-
+            <AppThemeColor x:Key="LogoBackgroundColor" Light="#D6D6D5" Dark="#000000" />
+            
+            <Style Class="FontSmall" TargetType="Label">
+                <Setter Property="FontSize" Value="11" />
+            </Style>
             <Style TargetType="Page" ApplyToDerivedTypes="True">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}" />
             </Style>
@@ -45,6 +49,24 @@
                 <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
                 <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
                 <Setter Property="FontFamily" Value="Montserrat" />
+            </Style>
+
+            <Style TargetType="Label" x:Key="GroupTitle">
+                <Setter Property="FontFamily" Value="MontserratBold" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+
+            <Style TargetType="Label" x:Key="PageNameTitle">
+                <Setter Property="FontFamily" Value="Montserrat" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="TextColor" Value="{DynamicResource TextColor}" />
+            </Style>
+
+            <Style TargetType="Label" x:Key="PageDescriptionTitle">
+                <Setter Property="FontFamily" Value="MontserratLight" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="TextColor" Value="#6A6A6A" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
