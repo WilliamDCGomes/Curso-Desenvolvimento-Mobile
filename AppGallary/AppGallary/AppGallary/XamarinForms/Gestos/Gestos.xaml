@@ -6,25 +6,41 @@
         <ScrollView>
             <StackLayout>
                 <Label Text="Gestos" />
-            
-                <Label Text="Toque (Tap)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray"/>
+
+                <Label TextColor="Black" Text="Toque (Tap)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
                 <Frame Margin="10">
-                    <Label Text="-" x:Name="LblTap"/>
+                    <Label TextColor="Black" Text="-" x:Name="LblTap"/>
                 </Frame>
 
-                <Label Text="Toque Longo (Pan)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Label TextColor="Black" Text="Toque Longo (Pan)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray">
+                    <Label.GestureRecognizers>
+                        <PanGestureRecognizer PanUpdated="PanGestureRecognizer_PanUpdated" />
+                    </Label.GestureRecognizers>
+                </Label>
                 <Frame Margin="10">
-                    <Label Text="-" x:Name="LblPan" />
+                    <Label TextColor="Black" Text="-" x:Name="LblPan" />
                 </Frame>
 
-                <Label Text="Pinça (Pinch)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Label TextColor="Black" Text="Pinça (Pinch)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray">
+                    <Label.GestureRecognizers>
+                        <PinchGestureRecognizer PinchUpdated="PinchGestureRecognizer_PinchUpdated" />
+                    </Label.GestureRecognizers>
+                </Label>
                 <Frame Margin="10">
-                    <Label Text="-" x:Name="LblPinch" />
+                    <Label TextColor="Black" Text="-" x:Name="LblPinch" />
                 </Frame>
 
-                <Label Text="Arrastar (Swipe)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray" />
+                <Label TextColor="Black" Text="Arrastar (Swipe)" Margin="10, 0" FontSize="24" Padding="24" BackgroundColor="LightGray">
+                    <Label.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Right, Left" Swiped="SwipeGestureRecognizer_Swiped" />
+                    </Label.GestureRecognizers>
+                </Label>
                 <Frame Margin="10">
-                    <Label Text="-" x:Name="LblSwipe" />
+                    <Label TextColor="Black"  Text="-" x:Name="LblSwipe" />
                 </Frame>
             </StackLayout>
         </ScrollView>

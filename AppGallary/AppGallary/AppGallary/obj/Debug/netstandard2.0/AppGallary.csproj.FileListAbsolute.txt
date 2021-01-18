@@ -172,3 +172,5 @@ D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.pdb
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Gestos\Gestos.xaml.g.cs
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Instagram\Home\Home.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Gestos\Gestos.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Instagram\Home\Home.xaml.g.cs
