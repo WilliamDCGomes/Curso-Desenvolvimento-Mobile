@@ -84,20 +84,251 @@
                                 </StackLayout>
                             </ScrollView>
                         </Frame>
-                        <Frame BackgroundColor="Black">
-                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="euPublish.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="You" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
                         </Frame>
-                        <Frame BackgroundColor="Black">
-                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="person1PublishComStorie.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="Sofia" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
                         </Frame>
-                        <Frame BackgroundColor="Black">
-                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="person2PublishComStorie.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="João" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
                         </Frame>
-                        <Frame BackgroundColor="Black">
-                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="person3PublishComStorie.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="Nathália" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
                         </Frame>
-                        <Frame BackgroundColor="Black">
-                            <Label Text="Boraaaaaa" TextColor="White" FontSize="48" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" />
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="person4PublishComStorie.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="Paulo" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="Black" Padding="8">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                            HeightRequest="40" 
+                                            WidthRequest="40"
+                                            BackgroundColor="Black" 
+                                            ImageSource="person5PublishComStorie.png"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="20"
+                                            />
+                                    <Label Text="Carol" HorizontalOptions="Start" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                                <Frame BorderColor="White" VerticalOptions="CenterAndExpand" HeightRequest="300" BackgroundColor="Black">
+                                    <Label Text="Post" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextColor="White"/>
+                                </Frame>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button 
+                                        ImageSource="coracaoIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="chatIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black" 
+                                        />
+                                    <Button 
+                                        ImageSource="planeIco.png" 
+                                        HorizontalOptions="Start"
+                                        HeightRequest="23" 
+                                        WidthRequest="23"
+                                        BackgroundColor="Black"     
+                                        />
+                                </StackLayout>
+                            </StackLayout>
                         </Frame>
                     </StackLayout>
                 </ScrollView>

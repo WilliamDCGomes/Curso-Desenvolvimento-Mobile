@@ -1131,3 +1131,16 @@ D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person4comstorie.png
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person5comstorie.png
 D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\euicon.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\eupublish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\eupublishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person1publish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person1publishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person2publish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person2publishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person3publish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person3publishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person4publish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person4publishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person5publish.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person5publishcomstorie.png
+D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\chatico.png
