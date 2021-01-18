@@ -79,6 +79,9 @@
                     <Label Text="Gestos"/>
                     <Button Text="GestosSimples" Clicked="AbrirGestosSimples"/>
 
+                    <Label Text="Classes úteis"/>
+                    <Button Text="Display" Clicked="AbrirDisplay"/>
+
                     <Label Text="Instagram"/>
                     <Button Text="Instagram" Clicked="AbrirInstagram"/>
                 </StackLayout>
