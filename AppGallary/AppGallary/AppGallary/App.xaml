@@ -8,6 +8,20 @@
                 <Setter Property="BackgroundColor" Value="Black" />
                 <Setter Property="TextColor" Value="White" />
             </Style>
+
+            <OnAppTheme x:Key="LogoMarca"  x:TypeArguments="FileImageSource">
+                <OnAppTheme.Light>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="logoclaro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Light>
+                <OnAppTheme.Dark>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="logoescuro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Dark>
+            </OnAppTheme>
+
             <AppThemeColor x:Key="PageBackgroundColor" Light="#FFFFFF" Dark="#202020" />
             <AppThemeColor x:Key="PageMenuBackgroundColor" Light="#EDEDED" Dark="#202020" />
             <AppThemeColor x:Key="BackgroundColor" Light="#EDEDED" Dark="#000000" />

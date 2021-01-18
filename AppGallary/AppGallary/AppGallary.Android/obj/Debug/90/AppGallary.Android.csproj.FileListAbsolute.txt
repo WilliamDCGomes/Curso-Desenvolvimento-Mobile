@@ -1224,3 +1224,15 @@ C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person5publish.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\person5publishcomstorie.png
 C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable\chatico.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-hdpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-ldpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-mdpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xhdpi\logoclaro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-hdpi\logoescuro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-ldpi\logoescuro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-mdpi\logoescuro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xhdpi\logoescuro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxhdpi\logoescuro.png
+C:\Dev\AppGallary\AppGallary\AppGallary.Android\obj\Debug\90\res\drawable-xxxhdpi\logoescuro.png
