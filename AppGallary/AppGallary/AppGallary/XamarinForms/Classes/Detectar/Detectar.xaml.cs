@@ -15,6 +15,17 @@ namespace AppGallary.XamarinForms.Classes.Detectar
         public Detectar()
         {
             InitializeComponent();
+            /*
+            if(Device.RuntimePlatform == Device.Android)
+            {
+
+            }
+            
+            if(Device.Idiom == TargetIdiom.Tablet)
+            {
+
+            }
+            */
         }
     }
 }

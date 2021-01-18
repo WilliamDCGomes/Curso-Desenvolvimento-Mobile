@@ -17,6 +17,25 @@
                     </OnPlatform>
                 </Label.TextColor>
             </Label>
+            <Label 
+                Text='{OnIdiom Phone="Smartphone", Tablet="Tablet", Desktop="PC"}'
+                Padding="20"
+                Margin="10, 0"
+                >
+                <Label.BackgroundColor>
+                    <OnIdiom x:TypeArguments="Color">
+                        <OnIdiom.Phone>
+                            LightGreen
+                        </OnIdiom.Phone>
+                        <OnIdiom.Tablet>
+                            LightGray
+                        </OnIdiom.Tablet>
+                        <OnIdiom.Desktop>
+                            LightBlue
+                        </OnIdiom.Desktop>
+                    </OnIdiom>
+                </Label.BackgroundColor>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
