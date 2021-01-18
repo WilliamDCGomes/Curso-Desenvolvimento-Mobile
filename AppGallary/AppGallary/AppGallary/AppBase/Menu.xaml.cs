@@ -376,5 +376,11 @@ namespace AppGallary.AppBase
             ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.Alerta.Alerta());
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void AbrirConverter(object sender, EventArgs e)
+        {
+            ((MasterDetailPage)App.Current.MainPage).Detail = new NavigationPage(new XamarinForms.Classes.Conversores.Conversor());
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

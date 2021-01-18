@@ -175,3 +175,4 @@ D:\Programing\Curso-Desenvolvimento-Mobile-main\AppGallary\AppGallary\AppGallary
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Gestos\Gestos.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Instagram\Home\Home.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Classes\Alerta\Alerta.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamarinForms\Classes\Conversores\Conversor.xaml.g.cs

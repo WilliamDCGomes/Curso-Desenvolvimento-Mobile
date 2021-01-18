@@ -81,6 +81,7 @@
 
                     <Label Text="Classes úteis"/>
                     <Button Text="Display" Clicked="AbrirDisplay"/>
+                    <Button Text="Converter" Clicked="AbrirConverter"/>
 
                     <Label Text="Instagram"/>
                     <Button Text="Instagram" Clicked="AbrirInstagram"/>
