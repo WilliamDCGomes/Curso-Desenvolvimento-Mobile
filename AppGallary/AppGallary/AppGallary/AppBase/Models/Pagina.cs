@@ -9,6 +9,6 @@ namespace AppGallary.AppBase.Models
         public string Nome { get; set; }
         public string Descricao { get; set; }
         public Type ArquivoPagina { get; set; }
-        public bool IsNavegacao { get; set; }
+        public bool TemNavegacao { get; set; }
     }
 }
