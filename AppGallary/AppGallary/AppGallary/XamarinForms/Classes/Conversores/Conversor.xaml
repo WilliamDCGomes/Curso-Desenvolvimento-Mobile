@@ -6,6 +6,7 @@
     <ContentPage.Resources>
         <converter:OpcionalConverter x:Key="OpcionalConverter" />
         <converter:ValorConverter x:Key="ValorConverter" />
+        <converter:ZebraConverter x:Key="ZebraConverter" />
     </ContentPage.Resources>
     <ContentPage.Content>
         <StackLayout>
@@ -15,9 +16,16 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding Marca}" />
-                                <Label Text="{Binding Modelo}" />
+                            <StackLayout Padding="10" BackgroundColor="{Binding ., Converter={StaticResource ZebraConverter}}">
+                                <Label FontAttributes="Bold">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Marca}" />
+                                            <Span Text=" - " />
+                                            <Span Text="{Binding Modelo}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
                                 <Label Text="{Binding Opcionais, Converter={StaticResource OpcionalConverter}}" />
                                 <Label Text="{Binding Valor, Converter={StaticResource ValorConverter}}" />
                             </StackLayout>
