@@ -151,6 +151,25 @@ namespace AppGallary
             }
         }
 
+        private void AbrirPagina(object sender, EventArgs e)
+        {
+            TappedEventArgs eventArgs = (TappedEventArgs)e;
+            Pagina parametro = (Pagina)eventArgs.Parameter;
+            Page pagina = null;
+            if (parametro.TemNavegacao)
+            {
+                pagina = new NavigationPage(
+                    (Page)Activator.CreateInstance(parametro.ArquivoPagina)
+                );
+            }
+            else
+            {
+                pagina = (Page)Activator.CreateInstance(parametro.ArquivoPagina);
+            }
+            ((MasterDetailPage)App.Current.MainPage).Detail = pagina;
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
         protected override void OnStart()
         {
         }

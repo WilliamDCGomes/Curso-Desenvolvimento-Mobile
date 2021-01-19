@@ -1,8 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:AppGallary.AppBase.ViewModels"
              xmlns:enhancedEntry="clr-namespace:LeoJHarris.FormsPlugin.Abstractions;assembly=LeoJHarris.FormsPlugin.Abstractions"
              x:Class="AppGallary.AppBase.Inicio">
+    <ContentPage.BindingContext>
+        <viewmodel:InicioViewModel />
+    </ContentPage.BindingContext>
     <ContentPage.Content>
         <Grid ColumnSpacing="0">
             <Grid.ColumnDefinitions>
@@ -13,10 +17,30 @@
                 <RowDefinition Height="100"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            <enhancedEntry:EnhancedEntry BackgroundColor="{DynamicResource SearchEntryBackgroundColor}" Placeholder="Pesquisar" Grid.Row="0" Grid.Column="0" Style="{DynamicResource SearchEntry}" BorderWidth="2" BorderColor="{StaticResource SearchButtonBorderColor}" CornerRadius="0"/>
-            <Button Text="OK" Grid.Row="0" Grid.Column="1" Style="{DynamicResource SearchButton}"/>
-            
-            <CollectionView Grid.Row="1" Grid.ColumnSpan="2" />
+            <enhancedEntry:EnhancedEntry 
+                BackgroundColor="{DynamicResource SearchEntryBackgroundColor}" 
+                Placeholder="Pesquisar" 
+                Grid.Row="0" 
+                Grid.Column="0" 
+                Style="{DynamicResource SearchEntry}" 
+                BorderWidth="2" 
+                BorderColor="{StaticResource SearchButtonBorderColor}" 
+                CornerRadius="0"
+             />
+            <Button 
+                Text="OK" 
+                Grid.Row="0" 
+                Grid.Column="1" 
+                Style="{DynamicResource SearchButton}"
+             />
+
+            <CollectionView 
+                ItemsSource="{Binding PageList}" 
+                ItemTemplate="{StaticResource PageListDataTemplate}" 
+                IsGrouped="True" 
+                Grid.Row="1" 
+                Grid.ColumnSpan="2" 
+            />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

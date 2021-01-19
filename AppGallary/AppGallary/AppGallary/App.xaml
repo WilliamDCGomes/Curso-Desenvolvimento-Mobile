@@ -4,6 +4,16 @@
              x:Class="AppGallary.App">
     <Application.Resources>
         <ResourceDictionary>
+            <DataTemplate x:Key="PageListDataTemplate">
+                <StackLayout Padding="25, 5, 10, 15">
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AbrirPagina" CommandParameter="{Binding .}"/>
+                    </StackLayout.GestureRecognizers>
+                    <Label Text="{Binding Nome}" Style="{DynamicResource PageNameTitle}" />
+                    <Label Text="{Binding Descricao}" Style="{DynamicResource PageDescriptionTitle}"/>
+                </StackLayout>
+            </DataTemplate>
+
             <Style x:Key="EstiloGlobalBotao" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="Black" />
                 <Setter Property="TextColor" Value="White" />

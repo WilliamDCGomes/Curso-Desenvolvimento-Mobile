@@ -9,7 +9,7 @@
             <ContentPage.BindingContext>
                 <viewmodel:MenuViewModel />
             </ContentPage.BindingContext>
-            <CollectionView ItemsSource="{Binding MenuItens}" IsGrouped="True" >
+            <CollectionView ItemsSource="{Binding MenuItens}" ItemTemplate="{StaticResource PageListDataTemplate}"  IsGrouped="True" >
                 <CollectionView.Header>
                     <StackLayout Padding="30" BackgroundColor="{DynamicResource LogoBackgroundColor}">
                         <Image Source="{DynamicResource LogoMarca}"/>
@@ -21,17 +21,7 @@
                         <Label Text="{Binding Nome}" Style="{DynamicResource GroupTitle}"/>
                     </DataTemplate>
                 </CollectionView.GroupHeaderTemplate>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Padding="25, 5, 10, 15">
-                            <StackLayout.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="AbrirPagina" CommandParameter="{Binding .}"/>
-                            </StackLayout.GestureRecognizers>
-                            <Label Text="{Binding Nome}" Style="{DynamicResource PageNameTitle}" />
-                            <Label Text="{Binding Descricao}" Style="{DynamicResource PageDescriptionTitle}"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
+                
             </CollectionView>
         </ContentPage>
     </MasterDetailPage.Master>
