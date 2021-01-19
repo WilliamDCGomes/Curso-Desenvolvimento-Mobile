@@ -33,7 +33,7 @@ namespace AppGallary.AppBase.ViewModels
             var listaFiltrada = new List<Pagina>();
             foreach (var pagina in PageListBackup)
             {
-                if (pagina.Nome.Contains(textoPesquisa))
+                if (pagina.Nome.ToLower().Contains(textoPesquisa.ToLower().Trim()))
                 {
                     listaFiltrada.Add(pagina);
                 }
