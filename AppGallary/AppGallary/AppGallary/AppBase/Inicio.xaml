@@ -26,18 +26,19 @@
                 BorderWidth="2" 
                 BorderColor="{StaticResource SearchButtonBorderColor}" 
                 CornerRadius="0"
+                x:Name="TxtPesquisa"
              />
             <Button 
                 Text="OK" 
                 Grid.Row="0" 
                 Grid.Column="1" 
                 Style="{DynamicResource SearchButton}"
+                Clicked="PesquisaAction"
              />
 
             <CollectionView 
                 ItemsSource="{Binding PageList}" 
                 ItemTemplate="{StaticResource PageListDataTemplate}" 
-                IsGrouped="True" 
                 Grid.Row="1" 
                 Grid.ColumnSpan="2" 
             />
