@@ -1,4 +1,5 @@
 ﻿using AppGallary.AppBase.Models;
+using AppGallary.Resources.Effects;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -23,6 +24,7 @@ namespace AppGallary
             pagina.CurrentPage = pagina.Children[1];
             */
             MainPage = new AppBase.Menu();
+            LogicStatusBarColorByTheme();
         }
         public static List<PaginaColecao> MenuItensColecao
         {
@@ -168,6 +170,26 @@ namespace AppGallary
             }
             ((MasterDetailPage)App.Current.MainPage).Detail = pagina;
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void LogicStatusBarColorByTheme()
+        {
+            UpdateStatusBarColorByTheme();
+            Application.Current.RequestedThemeChanged += (obj, args) =>
+            {
+                UpdateStatusBarColorByTheme();
+            };
+        }
+        private void UpdateStatusBarColorByTheme()
+        {
+            if (Application.Current.RequestedTheme == OSAppTheme.Light)
+            {
+                ((MasterDetailPage)MainPage).Detail.Effects.Add(new StatusBarEffect() { BackgroundColor = Color.FromHex("#C4C4C4") });
+            }
+            else
+            {
+                ((MasterDetailPage)MainPage).Detail.Effects.Add(new StatusBarEffect() { BackgroundColor = Color.FromHex("#000000") });
+            }
         }
 
         protected override void OnStart()

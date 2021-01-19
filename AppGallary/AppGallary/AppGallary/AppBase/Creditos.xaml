@@ -62,6 +62,18 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="StatusBar Effect - " />
+                        <Span Style="{StaticResource Link}" Text="Javier Suárez">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="https://github.com/jsuarezruiz/xamarin-forms-statusbar"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

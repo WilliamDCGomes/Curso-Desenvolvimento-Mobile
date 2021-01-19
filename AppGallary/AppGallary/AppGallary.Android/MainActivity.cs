@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.CurrentActivity;
 
 namespace AppGallary.Droid
 {
@@ -18,6 +19,7 @@ namespace AppGallary.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
             Xamarin.Forms.Forms.SetFlags(new string[] { "AppTheme_Experimental" });
             Xamarin.Forms.Forms.SetFlags(new string[] { "SwipeView_Experimental" });
             Xamarin.Forms.Forms.SetFlags(new string[] { "MediaElement_Experimental" });
