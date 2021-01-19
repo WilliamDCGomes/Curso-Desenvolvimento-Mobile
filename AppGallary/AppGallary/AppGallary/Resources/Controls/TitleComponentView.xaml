@@ -7,19 +7,19 @@
   <ContentView.Content>
         <Frame Margin="10" CornerRadius="0" BackgroundColor="{DynamicResource SearchEntryBackgroundColor}" BorderColor="{StaticResource SearchButtonBorderColor}">
             <StackLayout>
-                <Label Text="{Binding Name}" Style="{DynamicResource TitleCredits}"/>
+                <Label Text="{Binding Name}" x:Name="lblName" Style="{DynamicResource TitleCredits}"/>
 
-                <Label Text="Propriedades" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="{Binding Properties}" />
+                <Label Text="Propriedades" x:Name="lblProperties" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="{Binding Properties}" x:Name="lblPropertiesValue" />
 
-                <Label Text="Eventos" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="{Binding Events}" />
+                <Label Text="Eventos" x:Name="lblEvents" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="{Binding Events}" x:Name="lblEventsValue" />
 
-                <Label Text="Métodos" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="{Binding Methods}" />
+                <Label Text="Métodos" x:Name="lblMethods" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="{Binding Methods}" x:Name="lblMethodsValue" />
 
-                <Label Text="Observação" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="{Binding Observation}" />
+                <Label Text="Observação" x:Name="lblObservation" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="{Binding Observation}" x:Name="lblObservationValue" />
             </StackLayout>
         </Frame>
     </ContentView.Content>

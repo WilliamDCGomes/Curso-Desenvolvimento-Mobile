@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -64,6 +65,29 @@ namespace AppGallary.Resources.Controls
         public TitleComponentView()
         {
             InitializeComponent();
+        }
+        protected override void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            base.OnPropertyChanged(propertyName);
+            string[] fields = new string[] { "Properties", "Events", "Methods", "Observation"};
+            if (myComponent != null)
+            {
+                foreach (var field in fields)
+                {
+                    var titulo = myComponent.FindByName<Label>("lbl" + field);
+                    var valor = myComponent.FindByName<Label>("lbl"+field+"Value");
+                    if (string.IsNullOrEmpty(valor.Text))
+                    {
+                        titulo.IsVisible = false;
+                        valor.IsVisible = false;
+                    }
+                    else
+                    {
+                        titulo.IsVisible = true;
+                        valor.IsVisible = true;
+                    }
+                }
+            }
         }
     }
 }
