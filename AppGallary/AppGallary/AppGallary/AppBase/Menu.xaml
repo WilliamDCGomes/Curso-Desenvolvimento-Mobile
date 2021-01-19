@@ -23,7 +23,10 @@
                 </CollectionView.GroupHeaderTemplate>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout Padding="25, 5, 10, 5">
+                        <StackLayout Padding="25, 5, 10, 15">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirPagina" CommandParameter="{Binding .}"/>
+                            </StackLayout.GestureRecognizers>
                             <Label Text="{Binding Nome}" Style="{DynamicResource PageNameTitle}" />
                             <Label Text="{Binding Descricao}" Style="{DynamicResource PageDescriptionTitle}"/>
                         </StackLayout>

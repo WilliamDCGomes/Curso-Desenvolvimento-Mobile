@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppGallary.AppBase.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,23 @@ namespace AppGallary.AppBase
             InitializeComponent();
         }
 
-        private void Recarregar(object sender, EventArgs e)
+        private void AbrirPagina(object sender, EventArgs e)
         {
-
+            TappedEventArgs eventArgs = (TappedEventArgs)e;
+            Pagina parametro = (Pagina)eventArgs.Parameter;
+            Page pagina = null;
+            if (parametro.TemNavegacao)
+            {
+                pagina = new NavigationPage(
+                    (Page)Activator.CreateInstance(parametro.ArquivoPagina)
+                );
+            }
+            else
+            {
+                pagina = (Page)Activator.CreateInstance(parametro.ArquivoPagina);
+            }
+            Detail = pagina;
+            IsPresented = false;
         }
     }
 }
