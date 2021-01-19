@@ -3,8 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.AppBase.Creditos">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="" />
+        <StackLayout Padding="17">
+            <Label Text="Créditos" Style="{DynamicResource TitleCredits}"/>
+            <Label Text="Autor" Style="{DynamicResource SubTitleCredits}"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="William Douglas - " />
+                        <Span Style="{StaticResource Link}" Text="Gama Soluções"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text="Icones" Style="{DynamicResource SubTitleCredits}"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Icone made by " />
+                        <Span Style="{StaticResource Link}" Text="Freepik"/>
+                        <Span Text=" from " />
+                        <Span Style="{StaticResource Link}" Text="Flaticon"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text="Controles" Style="{DynamicResource SubTitleCredits}"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Xamarin Formas - " />
+                        <Span Style="{StaticResource Link}" Text="Docs"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="EnhancedEntry - " />
+                        <Span Style="{StaticResource Link}" Text="LeoJHarris"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

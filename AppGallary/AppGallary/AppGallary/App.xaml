@@ -64,6 +64,7 @@
             <AppThemeColor x:Key="SearchEntryBackgroundColor" Light="#FAFAFA" Dark="#111111" />
             <Color x:Key="SearchEntryPlaceHolderColor">#646464</Color>
             <Color x:Key="SearchButtonBorderColor">#707070</Color>
+            <Color x:Key="LinkColor">#006FFF</Color>
 
             <Style Class="FontSmall" TargetType="Label">
                 <Setter Property="FontSize" Value="11" />
@@ -120,6 +121,20 @@
                 <Setter Property="FontSize" Value="14" />
                 <Setter Property="CornerRadius" Value="0" />
                 <Setter Property="Margin" Value="0, 20, 20, 20" />
+            </Style>
+            
+            <Style TargetType="Label" x:Key="TitleCredits">
+                <Setter Property="FontFamily" Value="MontserratBold" />
+                <Setter Property="FontSize" Value="18" />
+            </Style>
+            <Style TargetType="Label" x:Key="SubTitleCredits">
+                <Setter Property="Margin" Value="0, 10, 0, 3" />
+                <Setter Property="FontFamily" Value="MontserratBold" />
+                <Setter Property="FontSize" Value="14" />
+            </Style>
+            <Style TargetType="Label" x:Key="Link">
+                <Setter Property="TextColor" Value="{StaticResource LinkColor}" />
+                <Setter Property="TextDecorations" Value="Underline" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

@@ -37,6 +37,7 @@ namespace AppGallary.AppBase
             var pagina = new NavigationPage(
                 (Page)Activator.CreateInstance(tipo)
             );
+
             ((MasterDetailPage)App.Current.MainPage).Detail = pagina;
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
