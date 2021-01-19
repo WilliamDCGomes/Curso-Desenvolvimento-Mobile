@@ -1,4 +1,5 @@
 ﻿using AppGallary.AppBase.Models;
+using AppGallary.Resources.Controls;
 using AppGallary.Resources.Effects;
 using System;
 using System.Collections.Generic;
@@ -23,8 +24,8 @@ namespace AppGallary
             pagina.Children.Add(new XamarinForms.Paginas.PaginaDeCarrossel.Conteudo03());
             pagina.CurrentPage = pagina.Children[1];
             */
-            MainPage = new AppBase.Menu();
-            LogicStatusBarColorByTheme();
+            MainPage = new NavigationPage(new TelaTemp());
+            //LogicStatusBarColorByTheme();
         }
         public static List<PaginaColecao> MenuItensColecao
         {

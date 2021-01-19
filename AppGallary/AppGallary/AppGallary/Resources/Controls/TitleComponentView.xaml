@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGallary.Resources.Controls.TitleComponentView">
+  <ContentView.Content>
+        <Frame Margin="10" CornerRadius="0" BackgroundColor="{DynamicResource SearchEntryBackgroundColor}" BorderColor="{StaticResource SearchButtonBorderColor}">
+            <StackLayout>
+                <Label Text="NomeDoComponente" Style="{DynamicResource TitleCredits}"/>
+
+                <Label Text="Propriedades" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="Valor" />
+
+                <Label Text="Eventos" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="Valor" />
+
+                <Label Text="Métodos" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="Valor" />
+
+                <Label Text="Observação" Style="{DynamicResource SubTitleCredits}" />
+                <Label Text="Valor" />
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>
