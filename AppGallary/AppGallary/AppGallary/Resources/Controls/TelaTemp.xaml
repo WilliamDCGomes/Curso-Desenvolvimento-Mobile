@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controle="clr-namespace:AppGallary.Resources.Controls"
+             
              x:Class="AppGallary.Resources.Controls.TelaTemp">
     <ContentPage.Content>
         <StackLayout>
-            <controle:TitleComponentView />
+            <controle:TitleComponentView Name="ListView" Properties="ItemsSource, ItemTemplate" Events="ItemTapped" Methods="Play, Stop" Observation="Habilitar Experimentar"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

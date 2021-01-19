@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="myComponent"
+             BindingContext="{x:Reference myComponent}"
              x:Class="AppGallary.Resources.Controls.TitleComponentView">
   <ContentView.Content>
         <Frame Margin="10" CornerRadius="0" BackgroundColor="{DynamicResource SearchEntryBackgroundColor}" BorderColor="{StaticResource SearchButtonBorderColor}">
             <StackLayout>
-                <Label Text="NomeDoComponente" Style="{DynamicResource TitleCredits}"/>
+                <Label Text="{Binding Name}" Style="{DynamicResource TitleCredits}"/>
 
                 <Label Text="Propriedades" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="Valor" />
+                <Label Text="{Binding Properties}" />
 
                 <Label Text="Eventos" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="Valor" />
+                <Label Text="{Binding Events}" />
 
                 <Label Text="Métodos" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="Valor" />
+                <Label Text="{Binding Methods}" />
 
                 <Label Text="Observação" Style="{DynamicResource SubTitleCredits}" />
-                <Label Text="Valor" />
+                <Label Text="{Binding Observation}" />
             </StackLayout>
         </Frame>
     </ContentView.Content>
