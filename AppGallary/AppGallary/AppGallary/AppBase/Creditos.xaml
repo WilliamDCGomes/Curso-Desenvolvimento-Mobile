@@ -10,7 +10,11 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="William Douglas - " />
-                        <Span Style="{StaticResource Link}" Text="Gama Soluções"/>
+                        <Span Style="{StaticResource Link}" Text="Gama Soluções">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="http://gamasti.com.br/"/>
+                            </Span.GestureRecognizers>
+                        </Span>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
@@ -19,9 +23,17 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="Icone made by " />
-                        <Span Style="{StaticResource Link}" Text="Freepik"/>
+                        <Span Style="{StaticResource Link}" Text="Freepik">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="http://freepik.com/"/>
+                            </Span.GestureRecognizers>
+                        </Span>
                         <Span Text=" from " />
-                        <Span Style="{StaticResource Link}" Text="Flaticon"/>
+                        <Span Style="{StaticResource Link}" Text="Flaticon">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="http://flaticon.com/"/>
+                            </Span.GestureRecognizers>
+                        </Span>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
@@ -30,7 +42,11 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="Xamarin Formas - " />
-                        <Span Style="{StaticResource Link}" Text="Docs"/>
+                        <Span Style="{StaticResource Link}" Text="Docs">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="https://dotnet.microsoft.com/apps/xamarin/xamarin-forms"/>
+                            </Span.GestureRecognizers>
+                        </Span>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
@@ -38,7 +54,11 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="EnhancedEntry - " />
-                        <Span Style="{StaticResource Link}" Text="LeoJHarris"/>
+                        <Span Style="{StaticResource Link}" Text="LeoJHarris">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirNavegador" CommandParameter="https://github.com/LeoJHarris"/>
+                            </Span.GestureRecognizers>
+                        </Span>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>

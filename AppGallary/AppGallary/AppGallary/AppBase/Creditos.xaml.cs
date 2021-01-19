@@ -16,5 +16,12 @@ namespace AppGallary.AppBase
         {
             InitializeComponent();
         }
+
+        private void AbrirNavegador(object sender, EventArgs e)
+        {
+            var eventArgs = (TappedEventArgs)e;
+            var url = eventArgs.Parameter as string;
+            Device.OpenUri(new Uri(url));
+        }
     }
 }
