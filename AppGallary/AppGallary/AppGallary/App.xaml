@@ -31,6 +31,30 @@
                     </OnPlatform>
                 </OnAppTheme.Dark>
             </OnAppTheme>
+            <OnAppTheme x:Key="IconHome"  x:TypeArguments="FileImageSource">
+                <OnAppTheme.Light>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="homeclaro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Light>
+                <OnAppTheme.Dark>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="homeescuro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Dark>
+            </OnAppTheme>
+            <OnAppTheme x:Key="IconHeart"  x:TypeArguments="FileImageSource">
+                <OnAppTheme.Light>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="heartclaro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Light>
+                <OnAppTheme.Dark>
+                    <OnPlatform x:TypeArguments="FileImageSource">
+                        <On Platform="Android, iOS" Value="heartescuro.png" />
+                    </OnPlatform>
+                </OnAppTheme.Dark>
+            </OnAppTheme>
 
             <AppThemeColor x:Key="PageBackgroundColor" Light="#FFFFFF" Dark="#202020" />
             <AppThemeColor x:Key="PageMenuBackgroundColor" Light="#EDEDED" Dark="#202020" />

@@ -41,6 +41,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="AppBase\Creditos.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="AppBase\Inicio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

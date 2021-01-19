@@ -18,6 +18,27 @@ namespace AppGallary.AppBase
             InitializeComponent();
         }
 
-        
+        private void AbrirPaginaFixa(object sender, EventArgs e)
+        {
+            var eventArgs = (TappedEventArgs)e;
+
+            Type tipo = null;
+            switch (eventArgs.Parameter)
+            {
+                case "Inicio":
+                    tipo = typeof(AppBase.Inicio);
+                    break;
+                case "Creditos":
+                    tipo = typeof(AppBase.Creditos);
+                    break;
+                default:
+                    break;
+            }
+            var pagina = new NavigationPage(
+                (Page)Activator.CreateInstance(tipo)
+            );
+            ((MasterDetailPage)App.Current.MainPage).Detail = pagina;
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

@@ -11,9 +11,25 @@
             </ContentPage.BindingContext>
             <CollectionView ItemsSource="{Binding MenuItens}" ItemTemplate="{StaticResource PageListDataTemplate}"  IsGrouped="True" >
                 <CollectionView.Header>
-                    <StackLayout Padding="30" BackgroundColor="{DynamicResource LogoBackgroundColor}">
-                        <Image Source="{DynamicResource LogoMarca}"/>
-                        <Label HorizontalTextAlignment="Center" StyleClass="FontSmall" Text="Xamarin Forms &#x0a;Gallery"/>
+                    <StackLayout>
+                        <StackLayout Padding="30" BackgroundColor="{DynamicResource LogoBackgroundColor}">
+                            <Image Source="{DynamicResource LogoMarca}"/>
+                            <Label HorizontalTextAlignment="Center" StyleClass="FontSmall" Text="Xamarin Forms &#x0a;Gallery"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="10, 10, 5, 5">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirPaginaFixa" CommandParameter="Inicio"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{DynamicResource IconHome}" />
+                            <Label Text="Início" Margin="7, 0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Padding="10, 10, 5, 5">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="AbrirPaginaFixa" CommandParameter="Creditos"/>
+                            </StackLayout.GestureRecognizers>
+                            <Image Source="{DynamicResource IconHeart}" />
+                            <Label Text="Créditos" Margin="7, 0"/>
+                        </StackLayout>
                     </StackLayout>
                 </CollectionView.Header>
                 <CollectionView.GroupHeaderTemplate>
