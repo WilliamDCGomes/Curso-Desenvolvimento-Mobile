@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tWgcQVeFmY3bPEh70+RJHgSWnSVXMt9gWMlL7VqnvAgBsMNKfVmhwCKvVkpSTgLLCa29FmugXy+pO2cnuhC1Rg==",
+  "dgSpecHash": "sx20IlXXUztSYOJnl0T5GQkfqCsdLeU03yOyrDu7lqcTqf1yYgXvuUo7nmsMTYRMPgkweYZtmJbSQiJekrxl8w==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.Android\\AppGallary.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\supor\\.nuget\\packages\\leojharris.xforms.plugin.enhancedentry\\1.0.6\\leojharris.xforms.plugin.enhancedentry.1.0.6.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

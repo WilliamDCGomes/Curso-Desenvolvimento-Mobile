@@ -75,13 +75,13 @@
             <Style TargetType="Entry" x:Key="SearchEntry">
                 <Setter Property="FontFamily" Value="Montserrat" />
                 <Setter Property="FontSize" Value="14" />
-                <Setter Property="BackgroundColor" Value="{DynamicResource SearchEntryBackgroundColor}" />
                 <Setter Property="PlaceholderColor" Value="{StaticResource SearchEntryPlaceHolderColor}" />
                 <Setter Property="Margin" Value="20, 20, 0, 20" />
             </Style>
             <Style TargetType="Button" x:Key="SearchButton">
                 <Setter Property="BorderColor" Value="{StaticResource SearchButtonBorderColor}" />
                 <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="TextColor" Value="#646464" />
                 <Setter Property="FontFamily" Value="MontserratBold" />
                 <Setter Property="FontSize" Value="14" />
                 <Setter Property="CornerRadius" Value="0" />

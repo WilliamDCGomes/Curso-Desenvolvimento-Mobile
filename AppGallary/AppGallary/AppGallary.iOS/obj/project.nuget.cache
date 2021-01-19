@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P8oViwAjAKmwHET6zKtFzgfTHA7cd+/FPd+QxVFd/OKsjibTOaDEsrRRDfU7yD0ffmGg0zeOhtZk2ByCO8WslQ==",
+  "dgSpecHash": "jLoJ1ySsvkQb9ceiO3+x2Tj82qO+XGVB58+Hipxd0vxLTx9sjXA6ygeMOhKx6FfA5tl8aMKveWPrJ2WDhS77ag==",
   "success": true,
   "projectFilePath": "C:\\Dev\\AppGallary\\AppGallary\\AppGallary.iOS\\AppGallary.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\supor\\.nuget\\packages\\leojharris.xforms.plugin.enhancedentry\\1.0.6\\leojharris.xforms.plugin.enhancedentry.1.0.6.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Users\\supor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

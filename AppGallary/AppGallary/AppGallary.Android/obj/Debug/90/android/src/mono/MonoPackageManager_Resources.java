@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"AppGallary.Android.dll",
 		"AppGallary.dll",
 		"FormsViewGroup.dll",
+		"LeoJHarris.FormsPlugin.Abstractions.dll",
+		"LeoJHarris.FormsPlugin.Droid.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

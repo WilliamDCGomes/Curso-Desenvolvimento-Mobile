@@ -42,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "LeoJHarris.XForms.Plugin.EnhancedEntry": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"
@@ -106,6 +110,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "LeoJHarris.XForms.Plugin.EnhancedEntry": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.10, )"

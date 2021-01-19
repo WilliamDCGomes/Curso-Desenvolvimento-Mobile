@@ -178,3 +178,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.dll
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\ref\AppGallary.dll
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.pdb
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.csprojAssemblyReference.cache
