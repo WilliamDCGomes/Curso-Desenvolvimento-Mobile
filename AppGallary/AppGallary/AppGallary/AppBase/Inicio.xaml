@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppGallary.AppBase.Inicio">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Olá!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid ColumnSpacing="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Entry Placeholder="Pesquisar" Grid.Row="0" Grid.Column="0" Style="{DynamicResource SearchEntry}"/>
+            <Button Text="OK" Grid.Row="0" Grid.Column="1" Style="{DynamicResource SearchButton}"/>
+            
+            <CollectionView Grid.Row="1" Grid.ColumnSpan="2" />
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
