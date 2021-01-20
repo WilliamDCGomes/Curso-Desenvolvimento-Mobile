@@ -7,6 +7,11 @@
     <ContentPage.Content>
         <StackLayout>
             <controle:TitleComponentView Name="ListView" Properties="ItemsSource, ItemTemplate" Events="ItemTapped" Methods="Play, Stop" Observation="Habilitar Experimentar"/>
+            <controle:SubtitleComponentView Properties="Items, Title, TitleColor">
+                <controle:SubtitleComponentView.Component>
+                    <Picker Title="Picker"></Picker>
+                </controle:SubtitleComponentView.Component>
+            </controle:SubtitleComponentView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -182,3 +182,4 @@ C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppGallary.cspr
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\AppBase\Creditos.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\Resources\Controls\TelaTemp.xaml.g.cs
 C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\Resources\Controls\TitleComponentView.xaml.g.cs
+C:\Dev\AppGallary\AppGallary\AppGallary\obj\Debug\netstandard2.0\Resources\Controls\SubtitleComponentView.xaml.g.cs
