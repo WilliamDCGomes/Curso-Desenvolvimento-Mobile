@@ -2,18 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="10"
-             xmlns:controls="clr-namespace:AppGallary.Resources.Controls"
              x:Class="AppGallary.XamarinForms.Controles.AtualizaControle.Atualiza">
     <ContentPage.Content>
         <RefreshView RefreshColor="Red" IsRefreshing="False" Refreshing="RefreshView_Refreshing" >
             <ScrollView>
                 <StackLayout>
-                    <controls:TitleComponentView 
-                        Name="RefreshView"
-                        Properties="IsRefreshing, RefreshColor"
-                        Events="Refreshing"
-                        Observation="Requisito: Precisa de barra de Rolagem - ScrollView, ListView, CollectionView, CarouselView"
-                    />
+                    <Label Text="RefreshView" />
+                    <Label Text="Propriedades: RefreshColor, IsRefreshing" />
+                    <Label Text="Eventos: Refreshing" />
+                    <Label Text="Observação: Barra de Rolagem - ScrollView, ListView, CollectionView, CarouselView" />
                     <Label Text="Não atualizado!" x:Name="LblStatus" TextColor="Red" FontSize="24" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
                 </StackLayout>
             </ScrollView>

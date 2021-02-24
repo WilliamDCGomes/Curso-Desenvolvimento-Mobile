@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj": {}
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj": {
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj",
+        "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj",
         "projectName": "AppQuantidade.UWP",
-        "projectPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj",
-        "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\obj\\",
+        "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\AppQuantidade.UWP.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
-                "projectPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj"
+              "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
+                "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj"
               }
             }
           }
@@ -87,20 +87,20 @@
         }
       }
     },
-    "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
+    "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj",
+        "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj",
         "projectName": "AppQuantidade",
-        "projectPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj",
-        "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\obj\\",
+        "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -152,7 +152,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

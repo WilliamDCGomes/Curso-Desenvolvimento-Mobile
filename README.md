@@ -1,2 +1,2 @@
-# Curso de Desenvolvimento Mobile em Xamarin
+# Curso de Desenvolvimento Mobile
 ## Treinamento Estágio

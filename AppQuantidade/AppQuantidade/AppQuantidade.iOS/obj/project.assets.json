@@ -981,24 +981,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\supor\\.nuget\\packages\\": {},
+    "C:\\Users\\willi\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\AppQuantidade.iOS.csproj",
+      "projectUniqueName": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\AppQuantidade.iOS.csproj",
       "projectName": "AppQuantidade.iOS",
-      "projectPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\AppQuantidade.iOS.csproj",
-      "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\obj\\",
+      "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\AppQuantidade.iOS.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
-              "projectPath": "C:\\Dev\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj"
+            "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj": {
+              "projectPath": "D:\\Programing\\Curso-Desenvolvimento-Mobile-main\\AppQuantidade\\AppQuantidade\\AppQuantidade\\AppQuantidade.csproj"
             }
           }
         }

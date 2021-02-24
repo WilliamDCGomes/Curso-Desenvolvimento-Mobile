@@ -15,9 +15,6 @@
     <None Remove="Resources\Fonts\gotham-black.ttf" />
     <None Remove="Resources\Fonts\gotham-light.ttf" />
     <None Remove="Resources\Fonts\gotham.ttf" />
-    <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
-    <None Remove="Resources\Fonts\Montserrat-Light.ttf" />
-    <None Remove="Resources\Fonts\Montserrat-Regular.ttf" />
     <None Remove="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
@@ -26,14 +23,10 @@
     <EmbeddedResource Include="Resources\Fonts\gotham-black.ttf" />
     <EmbeddedResource Include="Resources\Fonts\gotham-light.ttf" />
     <EmbeddedResource Include="Resources\Fonts\gotham.ttf" />
-    <EmbeddedResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
-    <EmbeddedResource Include="Resources\Fonts\Montserrat-Light.ttf" />
-    <EmbeddedResource Include="Resources\Fonts\Montserrat-Regular.ttf" />
     <EmbeddedResource Include="XamarinForms\Controles\ImagemControle\background.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LeoJHarris.XForms.Plugin.EnhancedEntry" Version="1.0.6" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.726" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
@@ -41,40 +34,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="AppBase\Creditos.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="AppBase\Inicio.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="AppBase\Menu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Controls\SubtitleComponentView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Controls\TelaTemp.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Controls\TitleComponentView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Animacoes\Simples\Simples.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Classes\Alerta\Alerta.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Classes\CentroDeMensagem\Pagina01.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Classes\CentroDeMensagem\Pagina02.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Classes\Conversores\Conversor.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="XamarinForms\Classes\Detectar\Detectar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="XamarinForms\Controles\ArrastaControle\Arrasta.xaml">

@@ -1,5 +1,4 @@
-﻿using AppGallary.AppBase.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,13 +15,6 @@ namespace AppGallary.AppBase
         public Inicio()
         {
             InitializeComponent();
-        }
-
-        private void PesquisaAction(object sender, EventArgs e)
-        {
-            var textoPesquisa = TxtPesquisa.Text;
-            var viewmodel = (InicioViewModel)BindingContext;
-            viewmodel.Pesquisa(textoPesquisa);
         }
     }
 }
