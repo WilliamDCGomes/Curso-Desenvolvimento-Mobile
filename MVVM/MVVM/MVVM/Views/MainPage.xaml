@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MVVM.MainPage"
+             BackgroundColor="White"
+             >
+
+    <StackLayout Spacing="20" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Xamarin Forms - MVVM" TextColor="Navy" FontSize="20" />
+        <Entry Text="{Binding Nome}" Placeholder="Informe o nome" FontSize="20" TextColor="Black"/>
+        <Button Text="Boas Vindas" TextColor="White" BackgroundColor="Teal" FontSize="20" Command="{Binding BoasVindasCommand}" />
+        <Label Text="{Binding Mensagem}"  FontSize="30" TextColor="Red" FontAttributes="Bold" />
+    </StackLayout>
+
+</ContentPage>

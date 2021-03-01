@@ -1,0 +1,14 @@
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.deps.json
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.dll
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\ref\MVVM.dll
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\bin\Debug\netstandard2.0\MVVM.pdb
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.csprojAssemblyReference.cache
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.AssemblyInfoInputs.cache
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.AssemblyInfo.cs
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.csproj.CoreCompileInputs.cache
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.dll
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\ref\MVVM.dll
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\MVVM.pdb
+D:\Programing\Curso-Desenvolvimento-Mobile-main\MVVM\MVVM\MVVM\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
